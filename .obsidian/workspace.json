@@ -11,8 +11,12 @@
             "id": "3a7e6119df1079aa",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Spaces/Home/옵시디언 명령어.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -98,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Spaces/Home/옵시디언 명령어.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Spaces/Home/옵시디언 명령어.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Spaces/Home/옵시디언 명령어.md"
+              }
             }
           }
         ]
@@ -159,10 +167,14 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "72013cac50909c23",
+  "active": "3a7e6119df1079aa",
   "lastOpenFiles": [
+    "문서이름.md",
+    "Spaces/Home/옵시디언 명령어.md",
+    "파일이름.확장자.md",
+    "Spaces/Untitled.md",
+    "Untitled.canvas",
     "Spaces/Home",
-    "Spaces",
-    "Untitled.canvas"
+    "Spaces"
   ]
 }
