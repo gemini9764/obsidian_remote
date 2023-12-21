@@ -35,7 +35,10 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "//Spaces",
+    "//Spaces/Spaces/Home",
+    "//Spaces/Spaces/Home/Spaces/Home/Java"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -51,7 +54,7 @@
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,
-  "inlineContextExpanded": true,
+  "inlineContextExpanded": false,
   "inlineContextSectionsExpanded": true,
   "dataviewInlineContext": false,
   "inlineContextNameLayout": "vertical",

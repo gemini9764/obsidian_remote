@@ -11,9 +11,11 @@
             "id": "3a7e6119df1079aa",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "Spaces/Home/옵시디언 기본 사용법"
+                "file": "Spaces/Home/Java/ClassLoader의 특징 및 원칙.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -100,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md",
+                "file": "Spaces/Home/Java/ClassLoader의 특징 및 원칙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md",
+                "file": "Spaces/Home/Java/ClassLoader의 특징 및 원칙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md"
+                "file": "Spaces/Home/Java/ClassLoader의 특징 및 원칙.md"
               }
             }
           }
@@ -165,10 +167,14 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "b92632e42baada7a",
+  "active": "3a7e6119df1079aa",
   "lastOpenFiles": [
-    "Spaces/Home/옵시디언 기본 사용법/dataview 사용법.md",
+    "Spaces/Home/Java/Java.md",
+    "Spaces/Home/Java/ClassLoader의 특징 및 원칙.md",
     "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md",
+    "Spaces/Home/Java",
+    "Spaces/Home/Untitled.md",
+    "Spaces/Home/옵시디언 기본 사용법/dataview 사용법.md",
     "Spaces/Home/Home.md",
     "Spaces/Home/옵시디언 기본 사용법",
     "Spaces/Spaces.md",
