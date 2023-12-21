@@ -11,11 +11,9 @@
             "id": "3a7e6119df1079aa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Spaces/Home/옵시디언 명령어.md",
-                "mode": "source",
-                "source": false
+                "path": "Spaces/Home/옵시디언 기본 사용법"
               }
             }
           }
@@ -102,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Home/옵시디언 명령어.md",
+                "file": "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Home/옵시디언 명령어.md",
+                "file": "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Home/옵시디언 명령어.md"
+                "file": "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md"
               }
             }
           }
@@ -167,10 +165,15 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "3a7e6119df1079aa",
+  "active": "b92632e42baada7a",
   "lastOpenFiles": [
+    "Spaces/Home/옵시디언 기본 사용법/dataview 사용법.md",
+    "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md",
+    "Spaces/Home/Home.md",
+    "Spaces/Home/옵시디언 기본 사용법",
+    "Spaces/Spaces.md",
+    "Spaces/Home/옵시디언 기본 사용법/옵시디언 명령어.md",
     "문서이름.md",
-    "Spaces/Home/옵시디언 명령어.md",
     "파일이름.확장자.md",
     "Spaces/Untitled.md",
     "Untitled.canvas",
