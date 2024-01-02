@@ -14,8 +14,19 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "397b3461ef2a6752",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -158,8 +170,9 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "3a7e6119df1079aa",
+  "active": "397b3461ef2a6752",
   "lastOpenFiles": [
+    "Spaces/Home/Home.md",
     "Spaces/Home/옵시디언 기본 사용법/옵시디언 명령어.md",
     "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md",
     "Spaces/Home/Java/ClassLoader의 특징 및 원칙.md",
@@ -168,7 +181,6 @@
     "Spaces/Home/Java",
     "Spaces/Home/Untitled.md",
     "Spaces/Home/옵시디언 기본 사용법/dataview 사용법.md",
-    "Spaces/Home/Home.md",
     "Spaces/Home/옵시디언 기본 사용법",
     "Spaces/Spaces.md",
     "문서이름.md",
