@@ -11,22 +11,15 @@
             "id": "3a7e6119df1079aa",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "397b3461ef2a6752",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.3"
+                "file": "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md"
+              }
             }
           }
         ]
@@ -170,8 +167,9 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "397b3461ef2a6752",
+  "active": "3a7e6119df1079aa",
   "lastOpenFiles": [
+    "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
     "Spaces/Home/Home.md",
     "Spaces/Home/옵시디언 기본 사용법/옵시디언 명령어.md",
     "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md",

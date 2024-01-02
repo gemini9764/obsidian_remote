@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "예외 상황에서 DB 롤백(autocommit 해제)",
+      "path": "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md"
+    },
+    {
       "basename": "Home",
       "path": "Spaces/Home/Home.md"
     },
