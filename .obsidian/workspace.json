@@ -11,9 +11,11 @@
             "id": "3a7e6119df1079aa",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "Spaces/CS"
+                "file": "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -100,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/CS/CS.md",
+                "file": "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/CS/CS.md",
+                "file": "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/CS/CS.md"
+                "file": "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md"
               }
             }
           }
@@ -165,7 +167,7 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "386c69a6eb10450c",
+  "active": "3a7e6119df1079aa",
   "lastOpenFiles": [
     "Spaces/CS/CS.md",
     "Spaces/CS/.md",

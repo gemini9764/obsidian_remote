@@ -37,7 +37,9 @@
   "expandedSpaces": [
     "/",
     "//Spaces",
-    "//Spaces/Spaces/CS"
+    "//Spaces/Spaces/CS",
+    "//Spaces/Spaces/Home",
+    "//Spaces/Spaces/Home/Spaces/Home/Java"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

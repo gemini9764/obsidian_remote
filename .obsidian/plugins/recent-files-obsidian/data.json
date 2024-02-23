@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "예외 상황에서 DB 롤백(autocommit 해제)",
+      "path": "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md"
+    },
+    {
       "basename": "CS",
       "path": "Spaces/CS/CS.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "자바에서 파일내용 읽어오기(txt)",
       "path": "Spaces/Home/Java/자바에서 파일내용 읽어오기(txt).md"
-    },
-    {
-      "basename": "예외 상황에서 DB 롤백(autocommit 해제)",
-      "path": "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md"
     },
     {
       "basename": "옵시디언 명령어",
