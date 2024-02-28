@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a811797502339658",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +178,7 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "3a7e6119df1079aa",
+  "active": "a811797502339658",
   "lastOpenFiles": [
     "Spaces/CS/CS.md",
     "Spaces/CS/.md",
