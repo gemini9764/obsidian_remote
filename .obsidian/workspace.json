@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
+                "file": "Spaces/CS/Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "a811797502339658",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
+                "file": "Spaces/CS/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
+                "file": "Spaces/CS/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md"
+                "file": "Spaces/CS/Untitled.md"
               }
             }
           }
@@ -178,15 +167,16 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "a811797502339658",
+  "active": "3a7e6119df1079aa",
   "lastOpenFiles": [
+    "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
+    "Spaces/CS/Untitled.md",
     "Spaces/CS/CS.md",
     "Spaces/CS/.md",
     "Spaces/Home/Home.md",
     "Spaces/CS",
     "Spaces/Home/Java/자바에서 파일내용 읽어오기(txt).md",
     "Codes.md",
-    "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
     "Spaces/Home/옵시디언 기본 사용법/옵시디언 명령어.md",
     "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md",
     "Spaces/Home/Java/ClassLoader의 특징 및 원칙.md",
