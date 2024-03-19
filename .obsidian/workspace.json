@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/CS/Untitled.md",
+                "file": "Spaces/Unreal Engine/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,23 +66,23 @@
             }
           },
           {
-            "id": "72013cac50909c23",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {}
-            }
-          },
-          {
             "id": "95aec0c89e4cbc28",
             "type": "leaf",
             "state": {
               "type": "recent-files",
               "state": {}
             }
+          },
+          {
+            "id": "5c64082a459dfdc0",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/CS/Untitled.md",
+                "file": "Spaces/Unreal Engine/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/CS/Untitled.md",
+                "file": "Spaces/Unreal Engine/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/CS/Untitled.md"
+                "file": "Spaces/Unreal Engine/Untitled.md"
               }
             }
           }
@@ -160,13 +160,22 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-file-cleaner:Clean files": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "remotely-secure:Remotely Sync": false
     }
   },
   "active": "3a7e6119df1079aa",
   "lastOpenFiles": [
-    "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
+    "Spaces/Unreal Engine/Unreal Engine.md",
+    "Spaces/Unreal Engine/Untitled.md",
+    "Spaces/Spaces.md",
+    "Spaces/Unreal Engine",
+    "Spaces/Untitled.md",
     "Spaces/CS/Untitled.md",
+    "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
     "Spaces/CS/CS.md",
     "Spaces/CS/.md",
     "Spaces/Home/Home.md",
@@ -181,10 +190,8 @@
     "Spaces/Home/Untitled.md",
     "Spaces/Home/옵시디언 기본 사용법/dataview 사용법.md",
     "Spaces/Home/옵시디언 기본 사용법",
-    "Spaces/Spaces.md",
     "문서이름.md",
     "파일이름.확장자.md",
-    "Spaces/Untitled.md",
     "Untitled.canvas",
     "Spaces/Home",
     "Spaces"
