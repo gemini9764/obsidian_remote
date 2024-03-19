@@ -15,5 +15,13 @@
 [구글 C++ 코딩 표준](https://bit.ly/cppcsgoogle)
 [언리얼 C++ 코딩 표준](https://bit.ly/uecppcs)
 
-프로그래밍 언어의 다양한 명명 
+**프로그래밍 언어의 다양한 명명 규칙**
+- 파스칼 케이싱(Pascal Casing) : 합성어의 첫 글자를 대문자를 사용해 명명 *언리얼 엔진에서 사용하는 명명 규칙*
+	**ex) UnrealEngine**
+- 카멜 케이싱(Camel Casing) : 첫 합성어는 소문자로 나머지는 대문자를 사용해 명명
+	**ex) unrealEngine**
+- 스테이크 케이싱(Snake Casing) : 합성어 사이에 언더바( _ )를 사용해 명명
+	**ex) unreal_engine**
+	
+
 
