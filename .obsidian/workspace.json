@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/언리얼 C++ 기본 타입과 문자열.md",
+                "file": "Spaces/Unreal Engine/FString의 구조와 활용.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Unreal Engine/언리얼 C++ 기본 타입과 문자열.md",
+                "file": "Spaces/Unreal Engine/FString의 구조와 활용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Unreal Engine/언리얼 C++ 기본 타입과 문자열.md",
+                "file": "Spaces/Unreal Engine/FString의 구조와 활용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Unreal Engine/언리얼 C++ 기본 타입과 문자열.md"
+                "file": "Spaces/Unreal Engine/FString의 구조와 활용.md"
               }
             }
           }
@@ -169,8 +169,11 @@
   },
   "active": "3a7e6119df1079aa",
   "lastOpenFiles": [
-    "Spaces/Home/옵시디언 기본 사용법/옵시디언 명령어.md",
     "Spaces/Unreal Engine/언리얼 C++ 기본 타입과 문자열.md",
+    "Spaces/Unreal Engine/FString의 구조와 활용.md",
+    "Spaces/Unreal Engine/캐릭터 인코딩.md",
+    "Vault.md",
+    "Spaces/Home/옵시디언 기본 사용법/옵시디언 명령어.md",
     "Spaces/Unreal Engine/언리얼 엔진 코딩 표준.md",
     "Spaces/Unreal Engine/코딩 표준(Coding Standard).md",
     "Spaces/Unreal Engine/Unreal Engine.md",
@@ -196,7 +199,6 @@
     "Spaces/Home/옵시디언 기본 사용법/dataview 사용법.md",
     "Spaces/Home/옵시디언 기본 사용법",
     "문서이름.md",
-    "파일이름.확장자.md",
     "Untitled.canvas",
     "Spaces/Home",
     "Spaces"

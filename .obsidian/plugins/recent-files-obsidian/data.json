@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "FString의 구조와 활용",
+      "path": "Spaces/Unreal Engine/FString의 구조와 활용.md"
+    },
+    {
       "basename": "언리얼 C++ 기본 타입과 문자열",
       "path": "Spaces/Unreal Engine/언리얼 C++ 기본 타입과 문자열.md"
+    },
+    {
+      "basename": "캐릭터 인코딩",
+      "path": "Spaces/Unreal Engine/캐릭터 인코딩.md"
     },
     {
       "basename": "옵시디언 명령어",

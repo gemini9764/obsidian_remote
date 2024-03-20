@@ -32,5 +32,5 @@
 - 일반 uint8과의 구분을 위해 b접두사를 사용
 - Cpp 로직에서는 자유롭게 bool을 사용
 
-[캐릭터 인코딩](https://bit.ly/uecharen)
-
+[[캐릭터 인코딩]]
+[[FString의 구조와 활용]]
