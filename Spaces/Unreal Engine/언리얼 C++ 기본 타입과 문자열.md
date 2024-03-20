@@ -21,4 +21,15 @@
 - ==int32== = signed int(4 byte)
 - ==uint64== = unsigned "quad word"(8 byte)
 - ==int64== = signed "quad word"(8 byte)
-- ==float== = single precision floating point
+- ==float== = single precision floating point(4 byte)
+- ==double== = double precision floating point(8 byte)
+- PTRINT = 포인터를 가질 수 있는 integer(PTRINT 크기 추정 금지)
+
+**bool 타입의 선언**
+- 데이터 전송을 고려한 참/거짓 데이터의 지정
+- bool은 크기가 명확하지 않음
+- 헤더에는 가급적 bool 대신 uint8 타입을 사용하되 Bit Field 오퍼레이터를 사용
+- 일반 uint8과의 구분을 위해 b접두사를 사용
+- Cpp 로직에서는 자유롭게 bool을 사용
+
+[캐릭터 인코딩](https://bit.ly/uecharen)
