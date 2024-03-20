@@ -10,4 +10,15 @@
 - 따라서 데이터를 저장할 때 int 타입의 크기를 확신할 수 없음
 - 데이터 타입의 애매 모호함은 게임 개발 시 문제를 일으킬 수 있음
 
-- 
+**언리얼 엔진에서 사용하는 기본 타입**
+- ==bool== = ==boolean== 값(bool 크기 추정 금지), ==BOOL==은 컴파일되지 않습니다
+- ==TCHAR== = character(TCHAR 크기 추정 금지)
+- ==uint8== = unsigned byte(1 byte)
+- ==int8== = signed byte(1 byte)
+- ==uint16== = unsigned "short"(2 byte)
+- ==int16== = signed "short"(2 byte)
+- ==uint32== = unsigned int(4 byte)
+- ==int32== = signed int(4 byte)
+- ==uint64== = unsigned "quad word"(8 byte)
+- ==int64== = signed "quad word"(8 byte)
+- ==float== = single precision floating point

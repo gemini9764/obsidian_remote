@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#bool",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,12 +169,12 @@
   },
   "active": "3a7e6119df1079aa",
   "lastOpenFiles": [
-    "Spaces/Unreal Engine/언리얼 엔진 코딩 표준.md",
+    "Spaces/Home/옵시디언 기본 사용법/옵시디언 명령어.md",
     "Spaces/Unreal Engine/언리얼 C++ 기본 타입과 문자열.md",
+    "Spaces/Unreal Engine/언리얼 엔진 코딩 표준.md",
     "Spaces/Unreal Engine/코딩 표준(Coding Standard).md",
     "Spaces/Unreal Engine/Unreal Engine.md",
     "언리얼 엔진 코딩 표준.md",
-    "Spaces/Home/옵시디언 기본 사용법/옵시디언 명령어.md",
     "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md",
     "사이트주소.md",
     "Spaces/Unreal Engine/.md",
