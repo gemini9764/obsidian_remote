@@ -11,5 +11,6 @@
 - FString에서 다른 타입으로의 변환(안전하진 않음)
 	- FCString::Atoi
 	- FCString::Atof
-- ![[Pasted image 20240321004314.png]]
+- ![[FString 구조.png]]
 
+[[FName 클래스]]
