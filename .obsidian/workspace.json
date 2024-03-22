@@ -16,8 +16,19 @@
                 "path": "Spaces/Unreal_Engine"
               }
             }
+          },
+          {
+            "id": "9d92930de8ad7808",
+            "type": "leaf",
+            "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "/"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Unreal_Engine/Unreal_Engine.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Unreal_Engine/Unreal_Engine.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Unreal_Engine/Unreal_Engine.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -165,10 +176,22 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "72013cac50909c23",
+  "active": "d5949614de555752",
   "lastOpenFiles": [
-    "Spaces/Spaces.md",
+    "Vault.md",
+    "conflict-files-obsidian-git.md",
     "Spaces/Unreal_Engine/Unreal_Engine.md",
+    "Spaces/Unreal Engine/캐릭터 인코딩.md",
+    "Spaces/Unreal Engine/코딩 표준(Coding Standard).md",
+    "Spaces/Unreal Engine/FString의 구조와 활용.md",
+    "Spaces/Unreal Engine/언리얼 엔진 코딩 표준.md",
+    "Spaces/Unreal Engine/FName의 구조.png",
+    "Spaces/Unreal Engine/언리얼 C++ 기본 타입과 문자열.md",
+    "Spaces/Unreal Engine/Unreal Engine.md",
+    "Spaces/Unreal Engine/FString 구조.png",
+    "Spaces/Unreal Engine/FName 클래스.md",
+    "Spaces/Unreal Engine",
+    "Spaces/Spaces.md",
     "Spaces/Unreal_Engine",
     "Spaces/Untitled.canvas",
     "Spaces/Unreal Engine.md",
@@ -189,7 +212,6 @@
     "Spaces/Home/Untitled.md",
     "Spaces/Home/옵시디언 기본 사용법",
     "문서이름.md",
-    "파일이름.확장자.md",
     "Untitled.canvas",
     "Spaces/Home",
     "Spaces"
