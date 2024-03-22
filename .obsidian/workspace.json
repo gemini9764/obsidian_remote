@@ -11,19 +11,19 @@
             "id": "3a7e6119df1079aa",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "Spaces/Unreal_Engine"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "9d92930de8ad7808",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "/"
+                "file": "Spaces/Unreal Engine/언리얼 오브젝트.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Spaces/Unreal Engine/언리얼 오브젝트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Spaces/Unreal Engine/언리얼 오브젝트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Spaces/Unreal Engine/언리얼 오브젝트.md"
               }
             }
           }
@@ -176,18 +176,20 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "d5949614de555752",
+  "active": "9d92930de8ad7808",
   "lastOpenFiles": [
-    "Vault.md",
-    "conflict-files-obsidian-git.md",
+    "Spaces/Unreal Engine/Unreal Engine.md",
+    "Spaces/Unreal Engine/언리얼 오브젝트.md",
     "Spaces/Unreal_Engine/Unreal_Engine.md",
+    "Spaces/Home/Home.md",
+    "conflict-files-obsidian-git.md",
+    "Vault.md",
     "Spaces/Unreal Engine/캐릭터 인코딩.md",
     "Spaces/Unreal Engine/코딩 표준(Coding Standard).md",
     "Spaces/Unreal Engine/FString의 구조와 활용.md",
     "Spaces/Unreal Engine/언리얼 엔진 코딩 표준.md",
     "Spaces/Unreal Engine/FName의 구조.png",
     "Spaces/Unreal Engine/언리얼 C++ 기본 타입과 문자열.md",
-    "Spaces/Unreal Engine/Unreal Engine.md",
     "Spaces/Unreal Engine/FString 구조.png",
     "Spaces/Unreal Engine/FName 클래스.md",
     "Spaces/Unreal Engine",
@@ -195,7 +197,6 @@
     "Spaces/Unreal_Engine",
     "Spaces/Untitled.canvas",
     "Spaces/Unreal Engine.md",
-    "Spaces/Home/Home.md",
     "Spaces/CS/CS.md",
     "Spaces/CS/Untitled.md",
     "Spaces/Home/옵시디언 기본 사용법/옵시디언 명령어.md",
@@ -211,7 +212,6 @@
     "Spaces/Home/Java",
     "Spaces/Home/Untitled.md",
     "Spaces/Home/옵시디언 기본 사용법",
-    "문서이름.md",
     "Untitled.canvas",
     "Spaces/Home",
     "Spaces"
