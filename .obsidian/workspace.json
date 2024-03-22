@@ -11,11 +11,9 @@
             "id": "3a7e6119df1079aa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Spaces/CS/Untitled.md",
-                "mode": "source",
-                "source": false
+                "path": "Spaces/Unreal_Engine"
               }
             }
           }
@@ -102,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/CS/Untitled.md",
+                "file": "Spaces/Unreal_Engine/Unreal_Engine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/CS/Untitled.md",
+                "file": "Spaces/Unreal_Engine/Unreal_Engine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/CS/Untitled.md"
+                "file": "Spaces/Unreal_Engine/Unreal_Engine.md"
               }
             }
           }
@@ -167,28 +165,31 @@
       "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "3a7e6119df1079aa",
+  "active": "72013cac50909c23",
   "lastOpenFiles": [
-    "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
-    "Spaces/CS/Untitled.md",
-    "Spaces/CS/CS.md",
-    "Spaces/CS/.md",
+    "Spaces/Spaces.md",
+    "Spaces/Unreal_Engine/Unreal_Engine.md",
+    "Spaces/Unreal_Engine",
+    "Spaces/Untitled.canvas",
+    "Spaces/Unreal Engine.md",
     "Spaces/Home/Home.md",
+    "Spaces/CS/CS.md",
+    "Spaces/CS/Untitled.md",
+    "Spaces/Home/옵시디언 기본 사용법/옵시디언 명령어.md",
+    "Spaces/Home/옵시디언 기본 사용법/dataview 사용법.md",
+    "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md",
+    "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
+    "Spaces/CS/.md",
     "Spaces/CS",
     "Spaces/Home/Java/자바에서 파일내용 읽어오기(txt).md",
     "Codes.md",
-    "Spaces/Home/옵시디언 기본 사용법/옵시디언 명령어.md",
-    "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md",
     "Spaces/Home/Java/ClassLoader의 특징 및 원칙.md",
     "Spaces/Home/Java/Java.md",
     "Spaces/Home/Java",
     "Spaces/Home/Untitled.md",
-    "Spaces/Home/옵시디언 기본 사용법/dataview 사용법.md",
     "Spaces/Home/옵시디언 기본 사용법",
-    "Spaces/Spaces.md",
     "문서이름.md",
     "파일이름.확장자.md",
-    "Spaces/Untitled.md",
     "Untitled.canvas",
     "Spaces/Home",
     "Spaces"

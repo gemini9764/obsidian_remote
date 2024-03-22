@@ -37,7 +37,10 @@
   "expandedSpaces": [
     "/",
     "//Spaces",
-    "//Spaces/Spaces/Home"
+    "//Spaces/Spaces/Home",
+    "//Spaces/Spaces/Home",
+    "//Spaces",
+    "//Spaces/Spaces/Unreal_Engine"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
