@@ -5,6 +5,18 @@
       "path": "Spaces/Unreal Engine/언리얼 오브젝트.md"
     },
     {
+      "basename": "옵시디언 명령어",
+      "path": "Spaces/Home/옵시디언 기본 사용법/옵시디언 명령어.md"
+    },
+    {
+      "basename": "dataview 사용법",
+      "path": "Spaces/Home/옵시디언 기본 사용법/dataview 사용법.md"
+    },
+    {
+      "basename": "옵시디언 기본 사용법",
+      "path": "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md"
+    },
+    {
       "basename": "Unreal Engine",
       "path": "Spaces/Unreal Engine/Unreal Engine.md"
     },
@@ -27,18 +39,6 @@
     {
       "basename": "Untitled",
       "path": "Spaces/CS/Untitled.md"
-    },
-    {
-      "basename": "옵시디언 명령어",
-      "path": "Spaces/Home/옵시디언 기본 사용법/옵시디언 명령어.md"
-    },
-    {
-      "basename": "dataview 사용법",
-      "path": "Spaces/Home/옵시디언 기본 사용법/dataview 사용법.md"
-    },
-    {
-      "basename": "옵시디언 기본 사용법",
-      "path": "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md"
     },
     {
       "basename": "예외 상황에서 DB 롤백(autocommit 해제)",
