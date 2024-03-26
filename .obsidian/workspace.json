@@ -11,15 +11,29 @@
             "id": "05624c37202e9bf7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Spaces/Unreal Engine/FName 클래스.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "bf6848566d43a978",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Unreal Engine/FName 클래스.md",
+                "file": "Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Unreal Engine/FName 클래스.md",
+                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Unreal Engine/FName 클래스.md"
+                "file": "Untitled.canvas"
               }
             }
           }
@@ -167,11 +181,12 @@
       "remotely-secure:Remotely Sync": false
     }
   },
-  "active": "05624c37202e9bf7",
+  "active": "bf6848566d43a978",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "Spaces/Unreal Engine/FName 클래스.md",
     "Spaces/Unreal Engine/FName의 구조.png",
     "Spaces/Unreal Engine/FString 구조.png",
-    "Spaces/Unreal Engine/FName 클래스.md",
     "Spaces/Unreal Engine/FString의 구조와 활용.md",
     "Spaces/Unreal Engine/언리얼 C++ 기본 타입과 문자열.md",
     "Spaces/Home/옵시디언 기본 사용법/옵시디언 명령어.md",
@@ -194,14 +209,4 @@
     "Spaces/CS/.md",
     "Spaces/Home/Home.md",
     "Spaces/CS",
-    "Spaces/Home/Java/자바에서 파일내용 읽어오기(txt).md",
-    "Codes.md",
-    "Spaces/Home/Java/ClassLoader의 특징 및 원칙.md",
-    "Spaces/Home/Java/Java.md",
-    "Spaces/Home/Java",
-    "Spaces/Home/옵시디언 기본 사용법",
-    "Untitled.canvas",
-    "Spaces/Home",
-    "Spaces"
-  ]
-}
+    "Spaces/H
