@@ -5,6 +5,10 @@
       "path": "Spaces/Unreal Engine/언리얼 오브젝트.md"
     },
     {
+      "basename": "캐릭터 인코딩",
+      "path": "Spaces/Unreal Engine/캐릭터 인코딩.md"
+    },
+    {
       "basename": "FName 클래스",
       "path": "Spaces/Unreal Engine/FName 클래스.md"
     },
@@ -31,6 +35,14 @@
     {
       "basename": "dataview 사용법",
       "path": "Spaces/Home/옵시디언 기본 사용법/dataview 사용법.md"
+    },
+    {
+      "basename": "언리얼 엔진 코딩 표준",
+      "path": "Spaces/Unreal Engine/언리얼 엔진 코딩 표준.md"
+    },
+    {
+      "basename": "코딩 표준(Coding Standard)",
+      "path": "Spaces/Unreal Engine/코딩 표준(Coding Standard).md"
     },
     {
       "basename": "옵시디언 기본 사용법",

@@ -19,7 +19,7 @@
             "id": "9d92930de8ad7808",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
                 "file": "Spaces/Unreal Engine/언리얼 오브젝트.md",
                 "mode": "source",
@@ -42,8 +42,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
