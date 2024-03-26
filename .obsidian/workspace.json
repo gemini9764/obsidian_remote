@@ -11,29 +11,15 @@
             "id": "05624c37202e9bf7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              }
-            }
-          },
-          {
-            "id": "bf6848566d43a978",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
+                "file": "Spaces/Unreal Engine/캐릭터 인코딩.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Spaces/Unreal Engine/캐릭터 인코딩.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Spaces/Unreal Engine/캐릭터 인코딩.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "Spaces/Unreal Engine/캐릭터 인코딩.md"
               }
             }
           }
@@ -181,7 +167,7 @@
       "remotely-secure:Remotely Sync": false
     }
   },
-  "active": "bf6848566d43a978",
+  "active": "05624c37202e9bf7",
   "lastOpenFiles": [
     "Untitled.canvas",
     "Spaces/Unreal Engine/FName 클래스.md",
@@ -209,4 +195,13 @@
     "Spaces/CS/.md",
     "Spaces/Home/Home.md",
     "Spaces/CS",
-    "Spaces/H
+    "Spaces/Home/Java/자바에서 파일내용 읽어오기(txt).md",
+    "Codes.md",
+    "Spaces/Home/Java/ClassLoader의 특징 및 원칙.md",
+    "Spaces/Home/Java/Java.md",
+    "Spaces/Home/Java",
+    "Spaces/Home/옵시디언 기본 사용법",
+    "Spaces/Home",
+    "Spaces"
+  ]
+}
