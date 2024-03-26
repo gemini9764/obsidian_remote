@@ -4,18 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "0aac92fb19bd9157",
+        "id": "d525b7c2790394fb",
         "type": "tabs",
         "children": [
           {
-            "id": "05624c37202e9bf7",
+            "id": "3a7e6119df1079aa",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "9d92930de8ad7808",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/캐릭터 인코딩.md",
+                "file": "Spaces/Unreal Engine/언리얼 오브젝트.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "bf6848566d43a978",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
               }
             }
           }
@@ -48,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#bool",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,23 +89,23 @@
             }
           },
           {
+            "id": "72013cac50909c23",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          },
+          {
             "id": "95aec0c89e4cbc28",
             "type": "leaf",
             "state": {
               "type": "recent-files",
               "state": {}
             }
-          },
-          {
-            "id": "5c64082a459dfdc0",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -102,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Unreal Engine/캐릭터 인코딩.md",
+                "file": "Spaces/Unreal Engine/언리얼 오브젝트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Unreal Engine/캐릭터 인코딩.md",
+                "file": "Spaces/Unreal Engine/언리얼 오브젝트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Unreal Engine/캐릭터 인코딩.md"
+                "file": "Spaces/Unreal Engine/언리얼 오브젝트.md"
               }
             }
           }
@@ -161,46 +184,49 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-file-cleaner:Clean files": false,
+      "remotely-secure:Remotely Sync": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "remotely-secure:Remotely Sync": false
+      "obsidian-file-cleaner:Clean files": false
     }
   },
-  "active": "05624c37202e9bf7",
+  "active": "9d92930de8ad7808",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "Spaces/Unreal Engine/FName 클래스.md",
-    "Spaces/Unreal Engine/FName의 구조.png",
-    "Spaces/Unreal Engine/FString 구조.png",
-    "Spaces/Unreal Engine/FString의 구조와 활용.md",
-    "Spaces/Unreal Engine/언리얼 C++ 기본 타입과 문자열.md",
     "Spaces/Home/옵시디언 기본 사용법/옵시디언 명령어.md",
-    "문서이름.md",
-    "Spaces/Unreal Engine/캐릭터 인코딩.md",
-    "Vault.md",
-    "Spaces/Unreal Engine/언리얼 엔진 코딩 표준.md",
-    "Spaces/Unreal Engine/코딩 표준(Coding Standard).md",
-    "Spaces/Unreal Engine/Unreal Engine.md",
-    "언리얼 엔진 코딩 표준.md",
+    "Spaces/Home/옵시디언 기본 사용법/dataview 사용법.md",
     "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md",
-    "사이트주소.md",
-    "Spaces/Unreal Engine/.md",
-    "Spaces/Spaces.md",
+    "Spaces/Unreal Engine/언리얼 오브젝트.md",
+    "Spaces/Unreal Engine/Unreal Engine.md",
+    "Spaces/Unreal_Engine/Unreal_Engine.md",
+    "Spaces/Home/Home.md",
+    "conflict-files-obsidian-git.md",
+    "Vault.md",
+    "Spaces/Unreal Engine/캐릭터 인코딩.md",
+    "Spaces/Unreal Engine/코딩 표준(Coding Standard).md",
+    "Spaces/Unreal Engine/FString의 구조와 활용.md",
+    "Spaces/Unreal Engine/언리얼 엔진 코딩 표준.md",
+    "Spaces/Unreal Engine/FName의 구조.png",
+    "Spaces/Unreal Engine/언리얼 C++ 기본 타입과 문자열.md",
+    "Spaces/Unreal Engine/FString 구조.png",
+    "Spaces/Unreal Engine/FName 클래스.md",
     "Spaces/Unreal Engine",
-    "Spaces/Untitled.md",
+    "Spaces/Spaces.md",
+    "Spaces/Unreal_Engine",
+    "Spaces/Untitled.canvas",
+    "Spaces/Unreal Engine.md",
+    "Spaces/CS/CS.md",
     "Spaces/CS/Untitled.md",
     "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
-    "Spaces/CS/CS.md",
     "Spaces/CS/.md",
-    "Spaces/Home/Home.md",
     "Spaces/CS",
     "Spaces/Home/Java/자바에서 파일내용 읽어오기(txt).md",
     "Codes.md",
     "Spaces/Home/Java/ClassLoader의 특징 및 원칙.md",
     "Spaces/Home/Java/Java.md",
     "Spaces/Home/Java",
+    "Spaces/Home/Untitled.md",
     "Spaces/Home/옵시디언 기본 사용법",
+    "Untitled.canvas",
     "Spaces/Home",
     "Spaces"
   ]
