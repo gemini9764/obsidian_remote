@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/언리얼 C++ 인터페이스.md",
+                "file": "Spaces/Unreal Engine/컴포지션 기법.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Unreal Engine/언리얼 C++ 인터페이스.md",
+                "file": "Spaces/Unreal Engine/컴포지션 기법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Unreal Engine/언리얼 C++ 인터페이스.md",
+                "file": "Spaces/Unreal Engine/컴포지션 기법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Unreal Engine/언리얼 C++ 인터페이스.md"
+                "file": "Spaces/Unreal Engine/컴포지션 기법.md"
               }
             }
           }
@@ -169,15 +169,16 @@
   },
   "active": "7ad872efd190f914",
   "lastOpenFiles": [
-    "Spaces/Unreal Engine/언리얼 오브젝트.md",
+    "Spaces/Unreal Engine/Unreal Engine.md",
+    "Spaces/Unreal Engine/컴포지션 기법.md",
     "Spaces/Unreal Engine/언리얼 C++ 인터페이스.md",
+    "Spaces/Unreal Engine/언리얼 오브젝트.md",
     "Spaces/Unreal Engine/언리얼 오브젝트 리플렉션 시스템.md",
     "Spaces/Home/옵시디언 기본 사용법/옵시디언 명령어.md",
     "Spaces/Unreal Engine/자료사진/클래스 기본 오브젝트.png",
     "Spaces/Unreal Engine/자료사진/언리얼 오브젝트의 구성.png",
     "Spaces/Unreal Engine/자료사진/자료사진.md",
     "Spaces/Unreal Engine/FName 클래스.md",
-    "Spaces/Unreal Engine/Unreal Engine.md",
     "Spaces/Unreal Engine/FString의 구조와 활용.md",
     "Spaces/Unreal Engine/자료사진/FName의 구조.png",
     "Spaces/Unreal Engine/자료사진/FString 구조.png",
@@ -201,7 +202,6 @@
     "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
     "Spaces/CS/CS.md",
     "Spaces/CS/.md",
-    "Spaces/Home/Home.md",
     "Spaces/CS",
     "Spaces/Home/Java",
     "Spaces/Home/옵시디언 기본 사용법",
