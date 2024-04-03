@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/델리게이트.md",
+                "file": "Spaces/Unreal Engine/언리얼 Array와 Set.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "ba40d30dda1d7762",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Unreal Engine/델리게이트.md",
+                "file": "Spaces/Unreal Engine/언리얼 Array와 Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Unreal Engine/델리게이트.md",
+                "file": "Spaces/Unreal Engine/언리얼 Array와 Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Unreal Engine/델리게이트.md"
+                "file": "Spaces/Unreal Engine/언리얼 Array와 Set.md"
               }
             }
           }
@@ -178,10 +167,11 @@
       "remotely-secure:Remotely Sync": false
     }
   },
-  "active": "ba40d30dda1d7762",
+  "active": "7ad872efd190f914",
   "lastOpenFiles": [
-    "Spaces/Unreal Engine/Unreal Engine.md",
     "Spaces/Unreal Engine/델리게이트.md",
+    "Spaces/Unreal Engine/언리얼 Array와 Set.md",
+    "Spaces/Unreal Engine/Unreal Engine.md",
     "Spaces/Unreal Engine/컴포지션 기법.md",
     "Spaces/Unreal Engine/자료사진/언리얼 컴포지션 구현 방법.png",
     "Spaces/Unreal Engine/언리얼 C++ 인터페이스.md",
@@ -213,7 +203,6 @@
     "Spaces/Untitled.md",
     "Spaces/CS/Untitled.md",
     "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md",
-    "Spaces/CS/CS.md",
     "Spaces/CS",
     "Spaces/Home/Java",
     "Spaces/Home/옵시디언 기본 사용법",
