@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ba40d30dda1d7762",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +178,7 @@
       "remotely-secure:Remotely Sync": false
     }
   },
-  "active": "7ad872efd190f914",
+  "active": "ba40d30dda1d7762",
   "lastOpenFiles": [
     "Spaces/Unreal Engine/Unreal Engine.md",
     "Spaces/Unreal Engine/델리게이트.md",
