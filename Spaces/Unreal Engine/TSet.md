@@ -15,4 +15,6 @@
 	- 따라서 STL set과 언리얼 TSet의 활용 방법은 서로 다르기 때문에 주의할 것
 	- STL의 unordered_set과 유사하게 동작하지만 동일하진 않음
 	- TSet은 중복 없는 데이터 집합을 구축하는데 유용하게 사용할 수 있음
+- ![[TSet의 내부 구조.png]]
 
+[TSet](https://bit.ly/uetsetkr)
