@@ -5,6 +5,26 @@
       "path": "Spaces/Unreal Engine/언리얼 메모리 관리.md"
     },
     {
+      "basename": "루트셋 플래그의 설정",
+      "path": "Spaces/Unreal Engine/자료사진/루트셋 플래그의 설정.png"
+    },
+    {
+      "basename": "자료사진",
+      "path": "Spaces/Unreal Engine/자료사진/자료사진.md"
+    },
+    {
+      "basename": "가비지 컬렉션을 위한 객체 저장소",
+      "path": "Spaces/Unreal Engine/자료사진/가비지 컬렉션을 위한 객체 저장소.png"
+    },
+    {
+      "basename": "가비지 컬렉터의 메모리 회수",
+      "path": "Spaces/Unreal Engine/자료사진/가비지 컬렉터의 메모리 회수.png"
+    },
+    {
+      "basename": "가비지 컬렉션 시스템",
+      "path": "Spaces/Unreal Engine/자료사진/가비지 컬렉션 시스템.png"
+    },
+    {
       "basename": "FName 클래스",
       "path": "Spaces/Unreal Engine/FName 클래스.md"
     },
@@ -83,10 +103,6 @@
     {
       "basename": "언리얼 오브젝트의 구성",
       "path": "Spaces/Unreal Engine/자료사진/언리얼 오브젝트의 구성.png"
-    },
-    {
-      "basename": "자료사진",
-      "path": "Spaces/Unreal Engine/자료사진/자료사진.md"
     },
     {
       "basename": "FString의 구조와 활용",
