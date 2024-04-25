@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/언리얼 패키지.md",
+                "file": "Spaces/Unreal Engine/애셋 정보의 저장과 로딩 전략.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Unreal Engine/언리얼 패키지.md",
+                "file": "Spaces/Unreal Engine/애셋 정보의 저장과 로딩 전략.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Unreal Engine/언리얼 패키지.md",
+                "file": "Spaces/Unreal Engine/애셋 정보의 저장과 로딩 전략.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Unreal Engine/언리얼 패키지.md"
+                "file": "Spaces/Unreal Engine/애셋 정보의 저장과 로딩 전략.md"
               }
             }
           }
@@ -167,10 +167,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7ad872efd190f914",
+  "active": "5c64082a459dfdc0",
   "lastOpenFiles": [
-    "Spaces/Unreal Engine/자료사진/패키지(Package)와 애셋(Asset).png",
     "Spaces/Unreal Engine/언리얼 패키지.md",
+    "Spaces/Unreal Engine/애셋 정보의 저장과 로딩 전략.md",
+    "Spaces/Unreal Engine/자료사진/패키지(Package)와 애셋(Asset).png",
     "Spaces/Unreal Engine/언리얼 직렬화.md",
     "Spaces/Unreal Engine/자료사진/Json 데이터 예시.png",
     "Spaces/Unreal Engine/자료사진/직렬화.png",

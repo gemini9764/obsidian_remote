@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "애셋 정보의 저장과 로딩 전략",
+      "path": "Spaces/Unreal Engine/애셋 정보의 저장과 로딩 전략.md"
+    },
+    {
       "basename": "언리얼 패키지",
       "path": "Spaces/Unreal Engine/언리얼 패키지.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Home",
       "path": "Spaces/Home/Home.md"
-    },
-    {
-      "basename": "자바에서 파일내용 읽어오기(txt)",
-      "path": "Spaces/Home/Java/자바에서 파일내용 읽어오기(txt).md"
     }
   ],
   "omittedPaths": [],
