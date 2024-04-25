@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "언리얼 패키지",
+      "path": "Spaces/Unreal Engine/언리얼 패키지.md"
+    },
+    {
+      "basename": "패키지(Package)와 애셋(Asset)",
+      "path": "Spaces/Unreal Engine/자료사진/패키지(Package)와 애셋(Asset).png"
+    },
+    {
       "basename": "언리얼 직렬화",
       "path": "Spaces/Unreal Engine/언리얼 직렬화.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "자바에서 파일내용 읽어오기(txt)",
       "path": "Spaces/Home/Java/자바에서 파일내용 읽어오기(txt).md"
-    },
-    {
-      "basename": "ClassLoader의 특징 및 원칙",
-      "path": "Spaces/Home/Java/ClassLoader의 특징 및 원칙.md"
     }
   ],
   "omittedPaths": [],
