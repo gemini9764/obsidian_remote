@@ -195,10 +195,6 @@
     {
       "basename": "ClassLoader의 특징 및 원칙",
       "path": "Spaces/Home/Java/ClassLoader의 특징 및 원칙.md"
-    },
-    {
-      "basename": "Java",
-      "path": "Spaces/Home/Java/Java.md"
     }
   ],
   "omittedPaths": [],
