@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/언리얼 빌드 시스템.md",
+                "file": "Spaces/Unreal Engine/Part1/언리얼 빌드 시스템.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Unreal Engine/언리얼 빌드 시스템.md",
+                "file": "Spaces/Unreal Engine/Part1/언리얼 빌드 시스템.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Unreal Engine/언리얼 빌드 시스템.md",
+                "file": "Spaces/Unreal Engine/Part1/언리얼 빌드 시스템.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Unreal Engine/언리얼 빌드 시스템.md"
+                "file": "Spaces/Unreal Engine/Part1/언리얼 빌드 시스템.md"
               }
             }
           }
@@ -169,36 +169,37 @@
   },
   "active": "7ad872efd190f914",
   "lastOpenFiles": [
-    "Spaces/Unreal Engine/애셋 정보의 저장과 로딩 전략.md",
-    "Spaces/Unreal Engine/언리얼 빌드 시스템.md",
-    "Spaces/Unreal Engine/TMap.md",
-    "Spaces/Unreal Engine/언리얼 패키지.md",
+    "Spaces/Unreal Engine/Part1/캐릭터 인코딩.md",
+    "Spaces/Unreal Engine/Part1/FName 클래스.md",
+    "Spaces/Unreal Engine/Part1/언리얼 빌드 시스템.md",
+    "Spaces/Unreal Engine/Part1/Part1.md",
+    "Spaces/Unreal Engine/Part1",
+    "Spaces/Unreal Engine/Part1/애셋 정보의 저장과 로딩 전략.md",
+    "Spaces/Unreal Engine/Part1/TMap.md",
+    "Spaces/Unreal Engine/Part1/언리얼 패키지.md",
     "Spaces/Unreal Engine/자료사진/패키지(Package)와 애셋(Asset).png",
-    "Spaces/Unreal Engine/언리얼 직렬화.md",
+    "Spaces/Unreal Engine/Part1/언리얼 직렬화.md",
     "Spaces/Unreal Engine/자료사진/Json 데이터 예시.png",
     "Spaces/Unreal Engine/자료사진/직렬화.png",
-    "Spaces/Unreal Engine/언리얼 메모리 관리.md",
+    "Spaces/Unreal Engine/Part1/언리얼 메모리 관리.md",
     "Spaces/Unreal Engine/자료사진/가비지 컬렉션 테스트 환경 시나리오.png",
-    "Spaces/Unreal Engine/가비지 컬렉션 시스템.md",
-    "Spaces/Unreal Engine/캐릭터 인코딩.md",
-    "Spaces/Unreal Engine/코딩 표준(Coding Standard).md",
-    "Spaces/Unreal Engine/컴포지션 기법.md",
-    "Spaces/Unreal Engine/언리얼 구조체와 Map.md",
-    "Spaces/Unreal Engine/언리얼 오브젝트.md",
-    "Spaces/Unreal Engine/언리얼 엔진 코딩 표준.md",
-    "Spaces/Unreal Engine/언리얼 C++ 인터페이스.md",
-    "Spaces/Unreal Engine/언리얼 C++ 기본 타입과 문자열.md",
-    "Spaces/Unreal Engine/언리얼 Array와 Set.md",
-    "Spaces/Unreal Engine/델리게이트.md",
-    "Spaces/Unreal Engine/TSet.md",
-    "Spaces/Unreal Engine/TArray.md",
-    "Spaces/Unreal Engine/FString의 구조와 활용.md",
-    "Spaces/Unreal Engine/FName 클래스.md",
-    "Spaces/Unreal Engine/가비지 컬렉터의 메모리 회수.md",
-    "Spaces/Unreal Engine/루트셋 플래그의 설정.md",
-    "Spaces/Unreal Engine/언리얼 엔진의 가비지 컬렉션 시스템.md",
+    "Spaces/Unreal Engine/Part1/가비지 컬렉션 시스템.md",
+    "Spaces/Unreal Engine/Part1/코딩 표준(Coding Standard).md",
+    "Spaces/Unreal Engine/Part1/컴포지션 기법.md",
+    "Spaces/Unreal Engine/Part1/언리얼 구조체와 Map.md",
+    "Spaces/Unreal Engine/Part1/언리얼 오브젝트.md",
+    "Spaces/Unreal Engine/Part1/언리얼 엔진 코딩 표준.md",
+    "Spaces/Unreal Engine/Part1/언리얼 C++ 인터페이스.md",
+    "Spaces/Unreal Engine/Part1/언리얼 C++ 기본 타입과 문자열.md",
+    "Spaces/Unreal Engine/Part1/언리얼 Array와 Set.md",
+    "Spaces/Unreal Engine/Part1/델리게이트.md",
+    "Spaces/Unreal Engine/Part1/TSet.md",
+    "Spaces/Unreal Engine/Part1/TArray.md",
+    "Spaces/Unreal Engine/Part1/FString의 구조와 활용.md",
+    "Spaces/Unreal Engine/Part1/가비지 컬렉터의 메모리 회수.md",
+    "Spaces/Unreal Engine/Part1/루트셋 플래그의 설정.md",
+    "Spaces/Unreal Engine/Part1/언리얼 엔진의 가비지 컬렉션 시스템.md",
     "Spaces/Home/옵시디언 기본 사용법/옵시디언 명령어.md",
-    "문서이름.md",
     "Spaces/Unreal Engine/자료사진/일반 클래스에서 언리얼 오브젝트를 관리하는 경우.png",
     "Spaces/Unreal Engine/자료사진/루트셋 플래그의 설정.png",
     "Spaces/Unreal Engine/자료사진/가비지 컬렉션을 위한 객체 저장소.png",

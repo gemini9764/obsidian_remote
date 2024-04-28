@@ -2,19 +2,27 @@
   "recentFiles": [
     {
       "basename": "언리얼 빌드 시스템",
-      "path": "Spaces/Unreal Engine/언리얼 빌드 시스템.md"
+      "path": "Spaces/Unreal Engine/Part1/언리얼 빌드 시스템.md"
+    },
+    {
+      "basename": "캐릭터 인코딩",
+      "path": "Spaces/Unreal Engine/Part1/캐릭터 인코딩.md"
+    },
+    {
+      "basename": "FName 클래스",
+      "path": "Spaces/Unreal Engine/Part1/FName 클래스.md"
     },
     {
       "basename": "애셋 정보의 저장과 로딩 전략",
-      "path": "Spaces/Unreal Engine/애셋 정보의 저장과 로딩 전략.md"
+      "path": "Spaces/Unreal Engine/Part1/애셋 정보의 저장과 로딩 전략.md"
     },
     {
       "basename": "TMap",
-      "path": "Spaces/Unreal Engine/TMap.md"
+      "path": "Spaces/Unreal Engine/Part1/TMap.md"
     },
     {
       "basename": "언리얼 패키지",
-      "path": "Spaces/Unreal Engine/언리얼 패키지.md"
+      "path": "Spaces/Unreal Engine/Part1/언리얼 패키지.md"
     },
     {
       "basename": "패키지(Package)와 애셋(Asset)",
@@ -22,7 +30,7 @@
     },
     {
       "basename": "언리얼 직렬화",
-      "path": "Spaces/Unreal Engine/언리얼 직렬화.md"
+      "path": "Spaces/Unreal Engine/Part1/언리얼 직렬화.md"
     },
     {
       "basename": "Json 데이터 예시",
@@ -34,7 +42,7 @@
     },
     {
       "basename": "언리얼 메모리 관리",
-      "path": "Spaces/Unreal Engine/언리얼 메모리 관리.md"
+      "path": "Spaces/Unreal Engine/Part1/언리얼 메모리 관리.md"
     },
     {
       "basename": "가비지 컬렉션 테스트 환경 시나리오",
@@ -42,75 +50,67 @@
     },
     {
       "basename": "가비지 컬렉션 시스템",
-      "path": "Spaces/Unreal Engine/가비지 컬렉션 시스템.md"
-    },
-    {
-      "basename": "캐릭터 인코딩",
-      "path": "Spaces/Unreal Engine/캐릭터 인코딩.md"
+      "path": "Spaces/Unreal Engine/Part1/가비지 컬렉션 시스템.md"
     },
     {
       "basename": "코딩 표준(Coding Standard)",
-      "path": "Spaces/Unreal Engine/코딩 표준(Coding Standard).md"
+      "path": "Spaces/Unreal Engine/Part1/코딩 표준(Coding Standard).md"
     },
     {
       "basename": "컴포지션 기법",
-      "path": "Spaces/Unreal Engine/컴포지션 기법.md"
+      "path": "Spaces/Unreal Engine/Part1/컴포지션 기법.md"
     },
     {
       "basename": "언리얼 구조체와 Map",
-      "path": "Spaces/Unreal Engine/언리얼 구조체와 Map.md"
+      "path": "Spaces/Unreal Engine/Part1/언리얼 구조체와 Map.md"
     },
     {
       "basename": "언리얼 오브젝트",
-      "path": "Spaces/Unreal Engine/언리얼 오브젝트.md"
+      "path": "Spaces/Unreal Engine/Part1/언리얼 오브젝트.md"
     },
     {
       "basename": "언리얼 엔진 코딩 표준",
-      "path": "Spaces/Unreal Engine/언리얼 엔진 코딩 표준.md"
+      "path": "Spaces/Unreal Engine/Part1/언리얼 엔진 코딩 표준.md"
     },
     {
       "basename": "언리얼 C++ 인터페이스",
-      "path": "Spaces/Unreal Engine/언리얼 C++ 인터페이스.md"
+      "path": "Spaces/Unreal Engine/Part1/언리얼 C++ 인터페이스.md"
     },
     {
       "basename": "언리얼 C++ 기본 타입과 문자열",
-      "path": "Spaces/Unreal Engine/언리얼 C++ 기본 타입과 문자열.md"
+      "path": "Spaces/Unreal Engine/Part1/언리얼 C++ 기본 타입과 문자열.md"
     },
     {
       "basename": "언리얼 Array와 Set",
-      "path": "Spaces/Unreal Engine/언리얼 Array와 Set.md"
+      "path": "Spaces/Unreal Engine/Part1/언리얼 Array와 Set.md"
     },
     {
       "basename": "델리게이트",
-      "path": "Spaces/Unreal Engine/델리게이트.md"
+      "path": "Spaces/Unreal Engine/Part1/델리게이트.md"
     },
     {
       "basename": "TSet",
-      "path": "Spaces/Unreal Engine/TSet.md"
+      "path": "Spaces/Unreal Engine/Part1/TSet.md"
     },
     {
       "basename": "TArray",
-      "path": "Spaces/Unreal Engine/TArray.md"
+      "path": "Spaces/Unreal Engine/Part1/TArray.md"
     },
     {
       "basename": "FString의 구조와 활용",
-      "path": "Spaces/Unreal Engine/FString의 구조와 활용.md"
-    },
-    {
-      "basename": "FName 클래스",
-      "path": "Spaces/Unreal Engine/FName 클래스.md"
+      "path": "Spaces/Unreal Engine/Part1/FString의 구조와 활용.md"
     },
     {
       "basename": "가비지 컬렉터의 메모리 회수",
-      "path": "Spaces/Unreal Engine/가비지 컬렉터의 메모리 회수.md"
+      "path": "Spaces/Unreal Engine/Part1/가비지 컬렉터의 메모리 회수.md"
     },
     {
       "basename": "루트셋 플래그의 설정",
-      "path": "Spaces/Unreal Engine/루트셋 플래그의 설정.md"
+      "path": "Spaces/Unreal Engine/Part1/루트셋 플래그의 설정.md"
     },
     {
       "basename": "언리얼 엔진의 가비지 컬렉션 시스템",
-      "path": "Spaces/Unreal Engine/언리얼 엔진의 가비지 컬렉션 시스템.md"
+      "path": "Spaces/Unreal Engine/Part1/언리얼 엔진의 가비지 컬렉션 시스템.md"
     },
     {
       "basename": "옵시디언 명령어",
