@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/Part1/언리얼 빌드 시스템.md",
+                "file": "Spaces/Unreal Engine/Part1/언리얼 플러그인.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Unreal Engine/Part1/언리얼 빌드 시스템.md",
+                "file": "Spaces/Unreal Engine/Part1/언리얼 플러그인.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Unreal Engine/Part1/언리얼 빌드 시스템.md",
+                "file": "Spaces/Unreal Engine/Part1/언리얼 플러그인.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Unreal Engine/Part1/언리얼 빌드 시스템.md"
+                "file": "Spaces/Unreal Engine/Part1/언리얼 플러그인.md"
               }
             }
           }
@@ -169,8 +169,12 @@
   },
   "active": "7ad872efd190f914",
   "lastOpenFiles": [
-    "Spaces/Unreal Engine/자료사진/새로운 모듈의 추가.png",
+    "Spaces/Unreal Engine/자료사진/플러그인 시스템.png",
+    "Spaces/Unreal Engine/Part1/언리얼 플러그인.md",
     "Spaces/Unreal Engine/Part1/언리얼 빌드 시스템.md",
+    "Spaces/Unreal Engine/Part1/언리얼 모듈.md",
+    "Spaces/Unreal Engine/자료사진/모듈의 공개와 참조.png",
+    "Spaces/Unreal Engine/자료사진/새로운 모듈의 추가.png",
     "Spaces/Unreal Engine/자료사진/모듈 간의 종속 관계.png",
     "Spaces/Unreal Engine/자료사진/모듈 C++ 코드의 관리.png",
     "Spaces/Spaces.md",
@@ -188,7 +192,6 @@
     "Spaces/Unreal Engine/자료사진/Json 데이터 예시.png",
     "Spaces/Unreal Engine/자료사진/직렬화.png",
     "Spaces/Unreal Engine/Part1/언리얼 메모리 관리.md",
-    "Spaces/Unreal Engine/자료사진/가비지 컬렉션 테스트 환경 시나리오.png",
     "Spaces/Unreal Engine/Part1/가비지 컬렉션 시스템.md",
     "Spaces/Unreal Engine/Part1/코딩 표준(Coding Standard).md",
     "Spaces/Unreal Engine/Part1/컴포지션 기법.md",
@@ -202,9 +205,6 @@
     "Spaces/Unreal Engine/Part1/TSet.md",
     "Spaces/Unreal Engine/Part1/TArray.md",
     "Spaces/Unreal Engine/Part1/FString의 구조와 활용.md",
-    "Spaces/Unreal Engine/Part1/가비지 컬렉터의 메모리 회수.md",
-    "Spaces/Unreal Engine/Part1/루트셋 플래그의 설정.md",
-    "Spaces/Unreal Engine/자료사진/일반 클래스에서 언리얼 오브젝트를 관리하는 경우.png",
     "Spaces/Unreal Engine/자료사진",
     "Untitled.canvas",
     "Spaces/Unreal Engine",
