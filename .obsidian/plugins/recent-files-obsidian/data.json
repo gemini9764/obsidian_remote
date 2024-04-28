@@ -5,6 +5,14 @@
       "path": "Spaces/Unreal Engine/Part1/언리얼 빌드 시스템.md"
     },
     {
+      "basename": "언리얼 C++ 프로젝트",
+      "path": "Spaces/Unreal Engine/자료사진/언리얼 C++ 프로젝트.png"
+    },
+    {
+      "basename": "블루프린트 프로젝트",
+      "path": "Spaces/Unreal Engine/자료사진/블루프린트 프로젝트.png"
+    },
+    {
       "basename": "캐릭터 인코딩",
       "path": "Spaces/Unreal Engine/Part1/캐릭터 인코딩.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Spaces",
       "path": "Spaces/Spaces.md"
-    },
-    {
-      "basename": "예외 상황에서 DB 롤백(autocommit 해제)",
-      "path": "Spaces/Home/Java/예외 상황에서 DB 롤백(autocommit 해제).md"
-    },
-    {
-      "basename": "CS",
-      "path": "Spaces/CS/CS.md"
     }
   ],
   "omittedPaths": [],
