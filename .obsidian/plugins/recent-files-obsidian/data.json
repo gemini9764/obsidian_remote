@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "언리얼 빌드 시스템",
+      "path": "Spaces/Unreal Engine/언리얼 빌드 시스템.md"
+    },
+    {
       "basename": "애셋 정보의 저장과 로딩 전략",
       "path": "Spaces/Unreal Engine/애셋 정보의 저장과 로딩 전략.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "CS",
       "path": "Spaces/CS/CS.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Spaces/Home/Home.md"
     }
   ],
   "omittedPaths": [],
