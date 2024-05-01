@@ -5,6 +5,10 @@
       "path": "Spaces/Unreal Engine/Part2/언리얼 엔진 게임 제작 기초.md"
     },
     {
+      "basename": "예제 게임 콘텐츠의 구성",
+      "path": "Spaces/Unreal Engine/자료사진/예제 게임 콘텐츠의 구성.png"
+    },
+    {
       "basename": "게임 콘텐츠 구성요소",
       "path": "Spaces/Unreal Engine/자료사진/게임 콘텐츠 구성요소.png"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "가비지 컬렉션 시스템",
       "path": "Spaces/Unreal Engine/자료사진/가비지 컬렉션 시스템.png"
-    },
-    {
-      "basename": "Unreal Engine",
-      "path": "Spaces/Unreal Engine/Unreal Engine.md"
     }
   ],
   "omittedPaths": [],
