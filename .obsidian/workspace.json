@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/Part2/언리얼 엔진 게임 제작 기초.md",
+                "file": "Spaces/Unreal Engine/Part2/캐릭터와 입력 시스템.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Unreal Engine/Part2/언리얼 엔진 게임 제작 기초.md",
+                "file": "Spaces/Unreal Engine/Part2/캐릭터와 입력 시스템.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Unreal Engine/Part2/언리얼 엔진 게임 제작 기초.md",
+                "file": "Spaces/Unreal Engine/Part2/캐릭터와 입력 시스템.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Unreal Engine/Part2/언리얼 엔진 게임 제작 기초.md"
+                "file": "Spaces/Unreal Engine/Part2/캐릭터와 입력 시스템.md"
               }
             }
           }
@@ -169,8 +169,10 @@
   },
   "active": "7ad872efd190f914",
   "lastOpenFiles": [
-    "Spaces/Unreal Engine/자료사진/게임 제작 과정.png",
+    "Spaces/Unreal Engine/자료사진/액터(루트 컴포넌트).png",
+    "Spaces/Unreal Engine/Part2/캐릭터와 입력 시스템.md",
     "Spaces/Unreal Engine/Part2/언리얼 엔진 게임 제작 기초.md",
+    "Spaces/Unreal Engine/자료사진/게임 제작 과정.png",
     "Spaces/Unreal Engine/자료사진/폰(Pawn).png",
     "Spaces/Unreal Engine/자료사진/플레이어(Player).png",
     "Spaces/Unreal Engine/자료사진/기믹(Gimmick).png",
@@ -185,7 +187,6 @@
     "Spaces/Unreal Engine/Part1/언리얼 플러그인.md",
     "Spaces/Unreal Engine/자료사진/플러그인 시스템.png",
     "Spaces/Unreal Engine/Part1/언리얼 모듈.md",
-    "Spaces/Unreal Engine/자료사진/모듈의 공개와 참조.png",
     "Spaces/Spaces.md",
     "Spaces/Unreal Engine/Part1/캐릭터 인코딩.md",
     "Spaces/Unreal Engine/Part1/FName 클래스.md",
@@ -205,7 +206,6 @@
     "Spaces/Unreal Engine/Part1/언리얼 C++ 인터페이스.md",
     "Spaces/Unreal Engine/Part1/언리얼 C++ 기본 타입과 문자열.md",
     "Spaces/Unreal Engine/Part1/언리얼 Array와 Set.md",
-    "Spaces/Unreal Engine/Part1/델리게이트.md",
     "Spaces/Unreal Engine/자료사진",
     "Untitled.canvas",
     "Spaces/Unreal Engine",
