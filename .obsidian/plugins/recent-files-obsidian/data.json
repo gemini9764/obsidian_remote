@@ -5,6 +5,10 @@
       "path": "Spaces/Unreal Engine/Part2/언리얼 엔진 게임 제작 기초.md"
     },
     {
+      "basename": "게임 제작 과정",
+      "path": "Spaces/Unreal Engine/자료사진/게임 제작 과정.png"
+    },
+    {
       "basename": "폰(Pawn)",
       "path": "Spaces/Unreal Engine/자료사진/폰(Pawn).png"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "옵시디언 기본 사용법",
       "path": "Spaces/Home/옵시디언 기본 사용법/옵시디언 기본 사용법.md"
-    },
-    {
-      "basename": "일반 클래스에서 언리얼 오브젝트를 관리하는 경우",
-      "path": "Spaces/Unreal Engine/자료사진/일반 클래스에서 언리얼 오브젝트를 관리하는 경우.png"
     }
   ],
   "omittedPaths": [],
