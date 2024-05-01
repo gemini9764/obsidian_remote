@@ -5,6 +5,26 @@
       "path": "Spaces/Unreal Engine/Part2/언리얼 엔진 게임 제작 기초.md"
     },
     {
+      "basename": "폰(Pawn)",
+      "path": "Spaces/Unreal Engine/자료사진/폰(Pawn).png"
+    },
+    {
+      "basename": "플레이어(Player)",
+      "path": "Spaces/Unreal Engine/자료사진/플레이어(Player).png"
+    },
+    {
+      "basename": "기믹(Gimmick)",
+      "path": "Spaces/Unreal Engine/자료사진/기믹(Gimmick).png"
+    },
+    {
+      "basename": "게임 모드(Game Mode)",
+      "path": "Spaces/Unreal Engine/자료사진/게임 모드(Game Mode).png"
+    },
+    {
+      "basename": "월드(World)",
+      "path": "Spaces/Unreal Engine/자료사진/월드(World).png"
+    },
+    {
       "basename": "예제 게임 콘텐츠의 구성",
       "path": "Spaces/Unreal Engine/자료사진/예제 게임 콘텐츠의 구성.png"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "일반 클래스에서 언리얼 오브젝트를 관리하는 경우",
       "path": "Spaces/Unreal Engine/자료사진/일반 클래스에서 언리얼 오브젝트를 관리하는 경우.png"
-    },
-    {
-      "basename": "루트셋 플래그의 설정",
-      "path": "Spaces/Unreal Engine/자료사진/루트셋 플래그의 설정.png"
-    },
-    {
-      "basename": "자료사진",
-      "path": "Spaces/Unreal Engine/자료사진/자료사진.md"
-    },
-    {
-      "basename": "가비지 컬렉션을 위한 객체 저장소",
-      "path": "Spaces/Unreal Engine/자료사진/가비지 컬렉션을 위한 객체 저장소.png"
-    },
-    {
-      "basename": "가비지 컬렉터의 메모리 회수",
-      "path": "Spaces/Unreal Engine/자료사진/가비지 컬렉터의 메모리 회수.png"
-    },
-    {
-      "basename": "가비지 컬렉션 시스템",
-      "path": "Spaces/Unreal Engine/자료사진/가비지 컬렉션 시스템.png"
     }
   ],
   "omittedPaths": [],
