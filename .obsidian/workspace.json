@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/Part2/Untitled.md",
+                "file": "Spaces/Unreal Engine/Part2/언리얼 엔진 게임 제작 기초.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Unreal Engine/Part2/Untitled.md",
+                "file": "Spaces/Unreal Engine/Part2/언리얼 엔진 게임 제작 기초.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Unreal Engine/Part2/Untitled.md",
+                "file": "Spaces/Unreal Engine/Part2/언리얼 엔진 게임 제작 기초.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Unreal Engine/Part2/Untitled.md"
+                "file": "Spaces/Unreal Engine/Part2/언리얼 엔진 게임 제작 기초.md"
               }
             }
           }
@@ -169,8 +169,10 @@
   },
   "active": "7ad872efd190f914",
   "lastOpenFiles": [
+    "Spaces/Unreal Engine/자료사진/게임 콘텐츠 구성요소.png",
+    "Spaces/Unreal Engine/Part2/언리얼 엔진 게임 제작 기초.md",
     "Spaces/Unreal Engine/Part2/Part2.md",
-    "Spaces/Unreal Engine/Part2/Untitled.md",
+    "Spaces/Unreal Engine/언리얼 효과적으로 공부하기.md",
     "Spaces/Unreal Engine/Part1/언리얼 빌드 시스템.md",
     "Spaces/Unreal Engine/Part2",
     "Spaces/Unreal Engine/Part1/언리얼 플러그인.md",
@@ -193,7 +195,6 @@
     "Spaces/Unreal Engine/자료사진/패키지(Package)와 애셋(Asset).png",
     "Spaces/Unreal Engine/Part1/언리얼 직렬화.md",
     "Spaces/Unreal Engine/자료사진/Json 데이터 예시.png",
-    "Spaces/Unreal Engine/자료사진/직렬화.png",
     "Spaces/Unreal Engine/Part1/언리얼 메모리 관리.md",
     "Spaces/Unreal Engine/Part1/가비지 컬렉션 시스템.md",
     "Spaces/Unreal Engine/Part1/코딩 표준(Coding Standard).md",
@@ -205,8 +206,6 @@
     "Spaces/Unreal Engine/Part1/언리얼 C++ 기본 타입과 문자열.md",
     "Spaces/Unreal Engine/Part1/언리얼 Array와 Set.md",
     "Spaces/Unreal Engine/Part1/델리게이트.md",
-    "Spaces/Unreal Engine/Part1/TSet.md",
-    "Spaces/Unreal Engine/Part1/TArray.md",
     "Spaces/Unreal Engine/자료사진",
     "Untitled.canvas",
     "Spaces/Unreal Engine",
