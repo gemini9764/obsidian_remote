@@ -5,6 +5,10 @@
       "path": "Spaces/Unreal Engine/Part2/입력시스템.md"
     },
     {
+      "basename": "향상된 입력시스템 동작 구성",
+      "path": "Spaces/Unreal Engine/자료사진/향상된 입력시스템 동작 구성.png"
+    },
+    {
       "basename": "향상된 입력시스템",
       "path": "Spaces/Unreal Engine/자료사진/향상된 입력시스템.png"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "언리얼 Array와 Set",
       "path": "Spaces/Unreal Engine/Part1/언리얼 Array와 Set.md"
-    },
-    {
-      "basename": "델리게이트",
-      "path": "Spaces/Unreal Engine/Part1/델리게이트.md"
     }
   ],
   "omittedPaths": [],
