@@ -49,8 +49,8 @@
     "//Spaces/Spaces/Unreal Engine",
     "//Spaces/Spaces/Unreal Engine",
     "//Spaces/Spaces/Unreal Engine",
-    "//Spaces/Spaces/Unreal Engine/Spaces/Unreal Engine/Part1",
-    "//Spaces"
+    "//Spaces",
+    "//Spaces/Spaces/Unreal Engine/Spaces/Unreal Engine/Part2"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
