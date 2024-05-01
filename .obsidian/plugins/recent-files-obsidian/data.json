@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "입력시스템",
+      "path": "Spaces/Unreal Engine/Part2/입력시스템.md"
+    },
+    {
+      "basename": "향상된 입력시스템",
+      "path": "Spaces/Unreal Engine/자료사진/향상된 입력시스템.png"
+    },
+    {
+      "basename": "입력시스템 예시",
+      "path": "Spaces/Unreal Engine/자료사진/입력시스템 예시.png"
+    },
+    {
       "basename": "캐릭터와 입력 시스템",
       "path": "Spaces/Unreal Engine/Part2/캐릭터와 입력 시스템.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "델리게이트",
       "path": "Spaces/Unreal Engine/Part1/델리게이트.md"
-    },
-    {
-      "basename": "TSet",
-      "path": "Spaces/Unreal Engine/Part1/TSet.md"
-    },
-    {
-      "basename": "TArray",
-      "path": "Spaces/Unreal Engine/Part1/TArray.md"
-    },
-    {
-      "basename": "FString의 구조와 활용",
-      "path": "Spaces/Unreal Engine/Part1/FString의 구조와 활용.md"
     }
   ],
   "omittedPaths": [],
