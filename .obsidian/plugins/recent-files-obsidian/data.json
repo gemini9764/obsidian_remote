@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "캐릭터 컨트롤 설정",
+      "path": "Spaces/Unreal Engine/Part2/캐릭터 컨트롤 설정.md"
+    },
+    {
+      "basename": "캐릭터 컨트롤",
+      "path": "Spaces/Unreal Engine/자료사진/캐릭터 컨트롤.png"
+    },
+    {
       "basename": "입력시스템",
       "path": "Spaces/Unreal Engine/Part2/입력시스템.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "언리얼 C++ 인터페이스",
       "path": "Spaces/Unreal Engine/Part1/언리얼 C++ 인터페이스.md"
-    },
-    {
-      "basename": "언리얼 C++ 기본 타입과 문자열",
-      "path": "Spaces/Unreal Engine/Part1/언리얼 C++ 기본 타입과 문자열.md"
-    },
-    {
-      "basename": "언리얼 Array와 Set",
-      "path": "Spaces/Unreal Engine/Part1/언리얼 Array와 Set.md"
     }
   ],
   "omittedPaths": [],
