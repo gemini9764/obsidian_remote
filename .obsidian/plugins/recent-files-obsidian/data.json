@@ -5,6 +5,14 @@
       "path": "Spaces/Unreal Engine/Part2/데이터 애셋.md"
     },
     {
+      "basename": "데이터 애셋의 구성과 적용",
+      "path": "Spaces/Unreal Engine/자료사진/데이터 애셋의 구성과 적용.png"
+    },
+    {
+      "basename": "데이터 애셋의 관리",
+      "path": "Spaces/Unreal Engine/자료사진/데이터 애셋의 관리.png"
+    },
+    {
       "basename": "데이터 애셋",
       "path": "Spaces/Unreal Engine/자료사진/데이터 애셋.png"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "직렬화",
       "path": "Spaces/Unreal Engine/자료사진/직렬화.png"
-    },
-    {
-      "basename": "언리얼 메모리 관리",
-      "path": "Spaces/Unreal Engine/Part1/언리얼 메모리 관리.md"
-    },
-    {
-      "basename": "가비지 컬렉션 테스트 환경 시나리오",
-      "path": "Spaces/Unreal Engine/자료사진/가비지 컬렉션 테스트 환경 시나리오.png"
     }
   ],
   "omittedPaths": [],
