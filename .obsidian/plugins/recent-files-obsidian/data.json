@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "데이터 애셋",
+      "path": "Spaces/Unreal Engine/Part2/데이터 애셋.md"
+    },
+    {
+      "basename": "데이터 애셋",
+      "path": "Spaces/Unreal Engine/자료사진/데이터 애셋.png"
+    },
+    {
       "basename": "캐릭터 컨트롤 설정",
       "path": "Spaces/Unreal Engine/Part2/캐릭터 컨트롤 설정.md"
+    },
+    {
+      "basename": "캐릭터 무브먼트의 회전 옵션",
+      "path": "Spaces/Unreal Engine/자료사진/캐릭터 무브먼트의 회전 옵션.png"
     },
     {
       "basename": "캐릭터 무브먼트의 이동 옵션",
@@ -187,18 +199,6 @@
     {
       "basename": "가비지 컬렉션 테스트 환경 시나리오",
       "path": "Spaces/Unreal Engine/자료사진/가비지 컬렉션 테스트 환경 시나리오.png"
-    },
-    {
-      "basename": "가비지 컬렉션 시스템",
-      "path": "Spaces/Unreal Engine/Part1/가비지 컬렉션 시스템.md"
-    },
-    {
-      "basename": "코딩 표준(Coding Standard)",
-      "path": "Spaces/Unreal Engine/Part1/코딩 표준(Coding Standard).md"
-    },
-    {
-      "basename": "컴포지션 기법",
-      "path": "Spaces/Unreal Engine/Part1/컴포지션 기법.md"
     }
   ],
   "omittedPaths": [],
