@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "뷰의 변환",
+      "path": "Spaces/Unreal Engine/Part2/뷰의 변환.md"
+    },
+    {
+      "basename": "캐릭터 컨트롤 설정",
+      "path": "Spaces/Unreal Engine/Part2/캐릭터 컨트롤 설정.md"
+    },
+    {
       "basename": "데이터 애셋",
       "path": "Spaces/Unreal Engine/Part2/데이터 애셋.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "데이터 애셋",
       "path": "Spaces/Unreal Engine/자료사진/데이터 애셋.png"
-    },
-    {
-      "basename": "캐릭터 컨트롤 설정",
-      "path": "Spaces/Unreal Engine/Part2/캐릭터 컨트롤 설정.md"
     },
     {
       "basename": "캐릭터 무브먼트의 회전 옵션",
@@ -195,10 +199,6 @@
     {
       "basename": "Json 데이터 예시",
       "path": "Spaces/Unreal Engine/자료사진/Json 데이터 예시.png"
-    },
-    {
-      "basename": "직렬화",
-      "path": "Spaces/Unreal Engine/자료사진/직렬화.png"
     }
   ],
   "omittedPaths": [],
