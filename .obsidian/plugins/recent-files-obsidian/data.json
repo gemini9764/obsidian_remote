@@ -5,6 +5,22 @@
       "path": "Spaces/Unreal Engine/Part2/캐릭터 컨트롤 설정.md"
     },
     {
+      "basename": "캐릭터 무브먼트의 이동 옵션",
+      "path": "Spaces/Unreal Engine/자료사진/캐릭터 무브먼트의 이동 옵션.png"
+    },
+    {
+      "basename": "카메라의 컨트롤 옵션",
+      "path": "Spaces/Unreal Engine/자료사진/카메라의 컨트롤 옵션.png"
+    },
+    {
+      "basename": "스프링암의 컨트롤 옵션",
+      "path": "Spaces/Unreal Engine/자료사진/스프링암의 컨트롤 옵션.png"
+    },
+    {
+      "basename": "폰의 컨트롤 옵션",
+      "path": "Spaces/Unreal Engine/자료사진/폰의 컨트롤 옵션.png"
+    },
+    {
       "basename": "캐릭터 컨트롤",
       "path": "Spaces/Unreal Engine/자료사진/캐릭터 컨트롤.png"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "컴포지션 기법",
       "path": "Spaces/Unreal Engine/Part1/컴포지션 기법.md"
-    },
-    {
-      "basename": "언리얼 구조체와 Map",
-      "path": "Spaces/Unreal Engine/Part1/언리얼 구조체와 Map.md"
-    },
-    {
-      "basename": "언리얼 오브젝트",
-      "path": "Spaces/Unreal Engine/Part1/언리얼 오브젝트.md"
-    },
-    {
-      "basename": "언리얼 엔진 코딩 표준",
-      "path": "Spaces/Unreal Engine/Part1/언리얼 엔진 코딩 표준.md"
-    },
-    {
-      "basename": "언리얼 C++ 인터페이스",
-      "path": "Spaces/Unreal Engine/Part1/언리얼 C++ 인터페이스.md"
     }
   ],
   "omittedPaths": [],
