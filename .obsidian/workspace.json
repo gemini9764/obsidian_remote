@@ -11,9 +11,11 @@
             "id": "7ad872efd190f914",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/자료사진/뷰의 변환.png"
+                "file": "Spaces/Unreal Engine/Part2/뷰의 변환.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -100,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/Unreal Engine/자료사진/뷰의 변환.png",
+                "file": "Spaces/Unreal Engine/Part2/뷰의 변환.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/Unreal Engine/자료사진/뷰의 변환.png",
+                "file": "Spaces/Unreal Engine/Part2/뷰의 변환.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spaces/Unreal Engine/자료사진/뷰의 변환.png"
+                "file": "Spaces/Unreal Engine/Part2/뷰의 변환.md"
               }
             }
           }
@@ -165,10 +167,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5c64082a459dfdc0",
+  "active": "7ad872efd190f914",
   "lastOpenFiles": [
-    "Spaces/Unreal Engine/Part2/뷰의 변환.md",
     "Spaces/Unreal Engine/자료사진/뷰의 변환.png",
+    "Spaces/Unreal Engine/Part2/뷰의 변환.md",
     "Spaces/Unreal Engine/Part2/캐릭터 컨트롤 설정.md",
     "Spaces/Unreal Engine/Part2/데이터 애셋.md",
     "Spaces/Unreal Engine/자료사진/데이터 애셋의 구성과 적용.png",
