@@ -5,6 +5,18 @@
       "path": "Spaces/Unreal Engine/Part2/캐릭터 애니메이션 설정.md"
     },
     {
+      "basename": "캐릭터 애니메이션 시스템의 설계",
+      "path": "Spaces/Unreal Engine/자료사진/캐릭터 애니메이션 시스템의 설계.png"
+    },
+    {
+      "basename": "자료사진",
+      "path": "Spaces/Unreal Engine/자료사진/자료사진.md"
+    },
+    {
+      "basename": "캐릭터 애니메이션 시스템의 생성",
+      "path": "Spaces/Unreal Engine/자료사진/캐릭터 애니메이션 시스템의 생성.png"
+    },
+    {
       "basename": "뷰의 변환",
       "path": "Spaces/Unreal Engine/Part2/뷰의 변환.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "애셋 정보의 저장과 로딩 전략",
       "path": "Spaces/Unreal Engine/Part1/애셋 정보의 저장과 로딩 전략.md"
-    },
-    {
-      "basename": "TMap",
-      "path": "Spaces/Unreal Engine/Part1/TMap.md"
-    },
-    {
-      "basename": "언리얼 패키지",
-      "path": "Spaces/Unreal Engine/Part1/언리얼 패키지.md"
-    },
-    {
-      "basename": "패키지(Package)와 애셋(Asset)",
-      "path": "Spaces/Unreal Engine/자료사진/패키지(Package)와 애셋(Asset).png"
     }
   ],
   "omittedPaths": [],
