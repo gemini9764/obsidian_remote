@@ -5,6 +5,14 @@
       "path": "Spaces/Unreal Engine/Part2/캐릭터 콤보 액션.md"
     },
     {
+      "basename": "콤보 공격의 구현(알고리즘)",
+      "path": "Spaces/Unreal Engine/자료사진/콤보 공격의 구현(알고리즘).png"
+    },
+    {
+      "basename": "콤보 공격의 기획",
+      "path": "Spaces/Unreal Engine/자료사진/콤보 공격의 기획.png"
+    },
+    {
       "basename": "캐릭터 애니메이션 설정",
       "path": "Spaces/Unreal Engine/Part2/캐릭터 애니메이션 설정.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "블루프린트 프로젝트",
       "path": "Spaces/Unreal Engine/자료사진/블루프린트 프로젝트.png"
-    },
-    {
-      "basename": "캐릭터 인코딩",
-      "path": "Spaces/Unreal Engine/Part1/캐릭터 인코딩.md"
-    },
-    {
-      "basename": "FName 클래스",
-      "path": "Spaces/Unreal Engine/Part1/FName 클래스.md"
     }
   ],
   "omittedPaths": [],
