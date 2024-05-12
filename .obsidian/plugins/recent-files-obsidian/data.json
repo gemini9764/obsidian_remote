@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "캐릭터 콤보 액션",
+      "path": "Spaces/Unreal Engine/Part2/캐릭터 콤보 액션.md"
+    },
+    {
       "basename": "캐릭터 애니메이션 설정",
       "path": "Spaces/Unreal Engine/Part2/캐릭터 애니메이션 설정.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "FName 클래스",
       "path": "Spaces/Unreal Engine/Part1/FName 클래스.md"
-    },
-    {
-      "basename": "애셋 정보의 저장과 로딩 전략",
-      "path": "Spaces/Unreal Engine/Part1/애셋 정보의 저장과 로딩 전략.md"
     }
   ],
   "omittedPaths": [],
