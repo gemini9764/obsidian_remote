@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "캐릭터 애니메이션 설정",
+      "path": "Spaces/Unreal Engine/Part2/캐릭터 애니메이션 설정.md"
+    },
+    {
       "basename": "뷰의 변환",
       "path": "Spaces/Unreal Engine/Part2/뷰의 변환.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "패키지(Package)와 애셋(Asset)",
       "path": "Spaces/Unreal Engine/자료사진/패키지(Package)와 애셋(Asset).png"
-    },
-    {
-      "basename": "언리얼 직렬화",
-      "path": "Spaces/Unreal Engine/Part1/언리얼 직렬화.md"
     }
   ],
   "omittedPaths": [],
