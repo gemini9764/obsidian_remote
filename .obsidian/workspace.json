@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ff93574a7271f042",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +178,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7ad872efd190f914",
+  "active": "ff93574a7271f042",
   "lastOpenFiles": [
     "Spaces/Unreal Engine/자료사진/콤보 공격의 구현(알고리즘).png",
     "Spaces/Unreal Engine/Part2/캐릭터 콤보 액션.md",
