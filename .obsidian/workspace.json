@@ -16,21 +16,49 @@
                 "file": "Spaces/Unreal Engine/Part2/캐릭터 콤보 액션.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "캐릭터 콤보 액션"
             }
           },
           {
-            "id": "ff93574a7271f042",
+            "id": "a71a90d629521d4a",
             "type": "leaf",
             "state": {
               "type": "release-notes",
               "state": {
-                "currentVersion": "1.6.5"
-              }
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
+          },
+          {
+            "id": "90f6db62aec3b5bf",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
+          },
+          {
+            "id": "934abd9a98610061",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -50,7 +78,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -65,7 +95,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -73,7 +105,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -81,15 +115,19 @@
             "type": "leaf",
             "state": {
               "type": "recent-files",
-              "state": {}
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
             }
           },
           {
-            "id": "5c64082a459dfdc0",
+            "id": "410ca898f2f2f724",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
-              "state": {}
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Spaces"
             }
           }
         ],
@@ -121,7 +159,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 캐릭터 콤보 액션"
             }
           },
           {
@@ -133,7 +173,9 @@
                 "file": "Spaces/Unreal Engine/Part2/캐릭터 콤보 액션.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 캐릭터 콤보 액션"
             }
           },
           {
@@ -144,7 +186,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -154,7 +198,9 @@
               "type": "outline",
               "state": {
                 "file": "Spaces/Unreal Engine/Part2/캐릭터 콤보 액션.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 캐릭터 콤보 액션"
             }
           }
         ]
@@ -178,7 +224,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ff93574a7271f042",
+  "active": "934abd9a98610061",
   "lastOpenFiles": [
     "Spaces/Unreal Engine/자료사진/콤보 공격의 구현(알고리즘).png",
     "Spaces/Unreal Engine/Part2/캐릭터 콤보 액션.md",
