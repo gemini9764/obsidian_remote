@@ -249,6 +249,7 @@ warning
 <a href="https://www.google.co.kr/" target="_blank">GOOGLE</a> 
 ```  
 
+```
 ```css 
 .list > li {
    position: absolute;
@@ -256,6 +257,7 @@ warning
 } 
 ```  
 
+```
 ```javascript 
 function add(a, b = 1) {
    console.log(a, b)
@@ -263,15 +265,18 @@ function add(a, b = 1) {
 } 
 ```  
 
+```
 ```bash 
 $ npm run dev 
 ```   
 
+```
 ```python 
 s = "Python syntax highlighting" 
 print s 
 ```   
 
+```
 ```plaintext 
 No language indicated, so no syntax highlighting.  
 But let's throw in a <b>tag</b>. 
@@ -279,83 +284,41 @@ But let's throw in a <b>tag</b>.
 
 **출력 결과:**
 
-HTML
-
-L
-
-1
-
+**html**
 `<a href="https://www.google.co.kr/" target="_blank">GOOGLE</a>`
 
-CSS
+**css**
+```css
+```.list > li {
+   position: absolute;
+   top: 40px; 
+}
+```
 
-L
+**javascript**
+```javascript
+function add(a, b = 1) {
+   console.log(a, b)
+   return a + b 
+}
+```
 
-L
+**bash**
+```bash
+$ npm run dev
+```
 
-L
+**python**
+```python
+s = "Python syntax highlighting" 
+print s
+```
 
-L
-
-1
-
-2
-
-3
-
-4
-
-`.list > li {   position: absolute;   top: 40px; }`
-
-JS
-
-L
-
-L
-
-L
-
-L
-
-1
-
-2
-
-3
-
-4
-
-`function add(a, b = 1) {   console.log(a, b)   return a + b }`
-
-BASH
-
-L
-
-1
-
-`$ npm run dev`
-
-PYTHON
-
-L
-
-L
-
-1
-
-2
-
-`s = "Python syntax highlighting" print s`
-
-L
-
-L
-
-1
-
-2
-
-`No language indicated, so no syntax highlighting.  But let's throw in a <b>tag</b>.`
+**plaintext**
+```plaintext
+No language indicated, so no syntax highlighting.  
+But let's throw in a <b>tag</b>.
+```
 
 #### [#](https://www.heropy.dev/p/B74sNE#h4_%EB%B0%B1%ED%8B%B1_%EA%B8%B0%ED%98%B8_%EC%82%AC%EC%9A%A9)백틱 기호 사용
 
@@ -364,17 +327,10 @@ L
 다음과 같이 `\` 기호와 함께 작성하면, 백틱 기호를 출력할 수 있습니다.  
 또는 `` ` ``에서 인라인 코드 강조를 하기 위해, `<code>` 태그를 활용할 수도 있습니다.
 
-MARKDOWN
-
-L
-
-L
-
-1
-
-2
-
-``\` <code>\`</code>``
+```
+\` 
+<code>\`</code>
+```
 
 **출력 결과:**
 
@@ -393,109 +349,36 @@ L
 
 가장 좌측과 가장 우측에 있는 `|`(vertical bar) 기호는 생략 가능합니다. (플랫폼에 따라 생략 불가한 경우도 있습니다)
 
-MARKDOWN
+```
+| 헤더 | 헤더 | 헤더 | 
+|---|---|---| 
+| 셀 | 셀 | 셀 | 
+| 셀 | 셀 | 셀 |  
 
-L
+헤더 | 헤더 | 헤더 
+---|---|--- 
+셀 | 셀 | 셀 
+셀 | 셀 | 셀
+```
 
-L
 
-L
+```
+| 값 | 의미 | 기본값 | 
+|---|:---:|---:| 
+| `static` | 유형(기준) 없음 / 배치 불가능 | `static` | 
+| `relative` | 요소 자신을 기준으로 배치 |  | 
+| `absolute` | 위치 상 부모(조상)요소를 기준으로 배치 |  | 
+| `fixed` | 브라우저 창을 기준으로 배치 |  | 
+| `sticky` | 스크롤 영역 기준으로 배치 |  |  
 
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-`| 헤더 | 헤더 | 헤더 | |---|---|---| | 셀 | 셀 | 셀 | | 셀 | 셀 | 셀 |  헤더 | 헤더 | 헤더 ---|---|--- 셀 | 셀 | 셀 셀 | 셀 | 셀`
-
-MARKDOWN
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
-
-14
-
-15
-
-``| 값 | 의미 | 기본값 | |---|:---:|---:| | `static` | 유형(기준) 없음 / 배치 불가능 | `static` | | `relative` | 요소 자신을 기준으로 배치 |  | | `absolute` | 위치 상 부모(조상)요소를 기준으로 배치 |  | | `fixed` | 브라우저 창을 기준으로 배치 |  | | `sticky` | 스크롤 영역 기준으로 배치 |  |  값 | 의미 | 기본값 ---|:---:|---: `static` | 유형(기준) 없음 / 배치 불가능 | `static` `relative` | 요소 자신을 기준으로 배치 | `absolute` | 위치 상 부모_(조상)요소를 기준으로 배치 | `fixed` | 브라우저 창을 기준으로 배치 | `sticky` | 스크롤 영역 기준으로 배치 |``
+값 | 의미 | 기본값 
+---|:---:|---: 
+`static` | 유형(기준) 없음 / 배치 불가능 | `static` 
+`relative` | 요소 자신을 기준으로 배치 | 
+`absolute` | 위치 상 부모_(조상)요소를 기준으로 배치 | 
+`fixed` | 브라우저 창을 기준으로 배치 | 
+`sticky` | 스크롤 영역 기준으로 배치 |
+```
 
 **출력 결과:**
 
