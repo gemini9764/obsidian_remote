@@ -94,8 +94,21 @@ warning
 하위 목록을 작성할 때, 들여쓰기(Indent)가 띄어쓰기 2칸이 아닌 3칸 이상일 수 있습니다.  
 또한, 순서가 있거나 없는 목록을 혼합하여 사용할 수 있지만, 동작하지 않을 수 있습니다.
 
-`` `-`로 시작하는 순서가 없는 목록으로 구분합니다.  
-```markdown 1. 순서가 있는 항목 1. 순서가 있는 항목     1. 순서가 없는 항목     1. 순서가 없는 항목 1. 순서가 있는 항목 1. 순서가 있는 항목  - 순서가 없는 항목 - 순서가 없는 항목     - 순서가 없는 항목     - 순서가 없는 항목 ``
+``` 
+`-`로 시작하는 순서가 없는 목록으로 구분합니다.
+
+```markdown 
+1. 순서가 있는 항목 
+2. 순서가 있는 항목
+     1. 순서가 없는 항목
+     2. 순서가 없는 항목 
+3. 순서가 있는 항목 
+4. 순서가 있는 항목  
+- 순서가 없는 항목 
+- 순서가 없는 항목
+     - 순서가 없는 항목
+     - 순서가 없는 항목 
+```
 
 **출력 결과:**
 
@@ -119,11 +132,32 @@ warning
 
 '링크'는 현재 탭에서 열리는 것이 기본이지만, 새 탭에서 열릴 수도 있습니다.
 
-`[이름](링크) [이름](링크 "설명") [이름][참조]  [참조]: 링크 [참조]: 링크 "설명"`
+```
+[이름](링크) 
+[이름](링크 "설명") 
+[이름][참조]  
+[참조]: 링크 
+[참조]: 링크 "설명"
+```
 
 링크 문법 구조
 
-``[GOOGLE](https://google.com)  [NAVER](https://naver.com "링크 설명(title)을 작성하세요.")  [상대적 참조](../users/login)  [Dribbble][Dribbble Link]  [GitHub][1]  문서 안에서 [참조 링크]를 그대로 사용할 수도 있습니다. 다음과 같이 문서 내 일반 URL이나 꺾쇠 괄호(`< >`, Angle Brackets)안의 URL은 자동으로 링크를 사용합니다.  구글 홈페이지: https://google.com 네이버 홈페이지: <https://naver.com>  [Dribbble Link]: https://dribbble.com [1]: https://github.com [참조 링크]: https://naver.com "네이버로 이동합니다!"``
+```
+[GOOGLE](https://google.com)  
+[NAVER](https://naver.com "링크 설명(title)을 작성하세요.")  
+[상대적 참조](../users/login)  
+[Dribbble][Dribbble Link]  
+[GitHub][1]  
+
+문서 안에서 [참조 링크]를 그대로 사용할 수도 있습니다. 다음과 같이 문서 내 일반 URL이나 꺾쇠 괄호(`< >`, Angle Brackets)안의 URL은 자동으로 링크를 사용합니다.  
+
+구글 홈페이지: https://google.com 
+네이버 홈페이지: <https://naver.com>  
+
+[Dribbble Link]: https://dribbble.com 
+[1]: https://github.com 
+[참조 링크]: https://naver.com "네이버로 이동합니다!"
+```
 
 **출력 결과:**
 
@@ -144,53 +178,22 @@ warning
 `<img>`로 변환되는 '이미지(Images)'를 표현합니다.  
 링크과 비슷하지만, 앞에 `!`를 추가해야 합니다.
 
-MARKDOWN
+```
+![대체텍스트](이미지주소) 
+![대체텍스트](이미지주소 "설명") 
+![대체텍스트][참조]  
 
-L
+[참조]: 이미지주소 
+[참조]: 이미지주소 "설명"
+```
 
-L
 
-L
+```
+![대체 텍스트(Alternative Text)](https://picsum.photos/1000/400 "링크 설명(Title)") 
+![이미지입니다!][Image]  
 
-L
-
-L
-
-L
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-`![대체텍스트](이미지주소) ![대체텍스트](이미지주소 "설명") ![대체텍스트][참조]  [참조]: 이미지주소 [참조]: 이미지주소 "설명"`
-
-MARKDOWN
-
-L
-
-L
-
-L
-
-L
-
-1
-
-2
-
-3
-
-4
-
-`![대체 텍스트(Alternative Text)](https://picsum.photos/1000/400 "링크 설명(Title)") ![이미지입니다!][Image]  [Image]: https://picsum.photos/500/300 "이미지입니다!"`
+[Image]: https://picsum.photos/500/300 "이미지입니다!"
+```
 
 **출력 결과:**
 
@@ -201,13 +204,9 @@ L
 
 마크다운 이미지 문법 코드를 링크 문법 코드로 감싸줍니다.
 
-MARKDOWN
-
-L
-
-1
-
-`[![HEROPY.DEV](/favicon.png)](https://heropy.dev/)`
+```
+[![HEROPY.DEV](/favicon.png)](https://heropy.dev/)
+```
 
 **출력 결과:**
 
@@ -222,13 +221,10 @@ L
 
 강조할 코드를 `` ` `` 기호로 감싸 '인라인(InLine)' 코드를 표현합니다.
 
-MARKDOWN
 
-L
-
-1
-
-`` `background` 혹은 `background-image` 속성으로 요소에 배경 이미지를 삽입할 수 있습니다. ``
+```
+`background` 혹은 `background-image` 속성으로 요소에 배경 이미지를 삽입할 수 있습니다. 
+```
 
 **출력 결과:**
 
@@ -239,173 +235,47 @@ L
 `` ` ``를 3번 이상 입력하고 언어(코드) 이름을 명시해, 코드 '블록(Block)'를 표현합니다.  
 코드 블록의 시작 `` ` `` 개수와 종료 `` ` `` 개수는 같아야 합니다.
 
-MARKDOWN
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-` // 연속 백틱 3개 시작, 종료 구조 ```언어이름 내용 ```  // 연속 백틱 4개 시작, 종료 구조 ````언어이름 내용 ```` `
-
-MARKDOWN
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-L
-
-1
-
-2
-
-3
-
-4
-
-5
-
-6
-
-7
-
-8
-
-9
-
-10
-
-11
-
-12
-
-13
-
-14
-
-15
-
-16
-
-17
-
-18
-
-19
-
-20
-
-21
-
-22
-
-23
-
-24
-
-25
-
-26
-
-27
-
-28
-
-29
-
-30
-
-31
-
-` ```html <a href="https://www.google.co.kr/" target="_blank">GOOGLE</a> ```  ```css .list > li {   position: absolute;   top: 40px; } ```  ```javascript function add(a, b = 1) {   console.log(a, b)   return a + b } ```  ```bash $ npm run dev ```   ```python s = "Python syntax highlighting" print s ```   ```plaintext No language indicated, so no syntax highlighting.  But let's throw in a <b>tag</b>. ``` `
+```
+// 연속 백틱 3개 시작, 종료 구조 
+```언어이름 내용 ```  
+
+// 연속 백틱 4개 시작, 종료 구조 
+````언어이름 내용 ```` 
+```
+
+
+```
+```html 
+<a href="https://www.google.co.kr/" target="_blank">GOOGLE</a> 
+```  
+
+```css 
+.list > li {
+   position: absolute;
+   top: 40px; 
+} 
+```  
+
+```javascript 
+function add(a, b = 1) {
+   console.log(a, b)
+   return a + b 
+} 
+```  
+
+```bash 
+$ npm run dev 
+```   
+
+```python 
+s = "Python syntax highlighting" 
+print s 
+```   
+
+```plaintext 
+No language indicated, so no syntax highlighting.  
+But let's throw in a <b>tag</b>. 
+``` 
 
 **출력 결과:**
 
