@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/스파르타/서버.md",
+                "file": "Spaces/Home/옵시디언 기본 사용법/MarkDown 사용법.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "서버"
+              "title": "MarkDown 사용법"
             }
           }
         ]
@@ -190,6 +190,7 @@
   "active": "aab77af0a2d1a707",
   "lastOpenFiles": [
     "Spaces/Home/옵시디언 기본 사용법/MarkDown 사용법.md",
+    "Spaces/Home/옵시디언 기본 사용법/MarkDown 사용법.md",
     "문서이름.md",
     "Spaces/Unreal Engine/스파르타/서버.md",
     "Spaces/Unreal Engine/스파르타/스파르타.md",
@@ -227,7 +228,6 @@
     "Spaces/Unreal Engine/Part1/Part1.md",
     "Spaces/Unreal Engine/Part1",
     "Spaces/Unreal Engine/Part1/애셋 정보의 저장과 로딩 전략.md",
-    "Spaces/Unreal Engine/Part1/TMap.md",
     "Spaces/Unreal Engine/자료사진",
     "Untitled.canvas",
     "Spaces/Unreal Engine",
