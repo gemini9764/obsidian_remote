@@ -514,3 +514,18 @@ warning
 -- 시작 --
 
 -- 종료 --
+
+### 그래프/다이어그램
+
+#### Sequence Diagram
+
+```sequence 
+Alice->Bob: Hello Bob, how are you? 
+Note right of Bob: Bob thinks 
+Bob-->Alice: I am good thanks! 
+```
+
+#### Flow Charts
+
+```flow 
+st=>start: Start op=>operation: Your Operation cond=>condition: Yes or No? e=>end st->op->cond cond(yes)->e cond(no)->op ```
