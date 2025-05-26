@@ -1,5 +1,5 @@
 ### git
-- 버전 관리 도구. 형상관리 도구
+- 버전 관리 도구. 형상 관리 도구
 
 ### github
 - 온라인 코드 저장소
@@ -16,3 +16,7 @@
     - git branch
     - git checkout
     - git merge
+
+
+- 브랜치(branch)
+    - 
