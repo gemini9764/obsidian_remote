@@ -98,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 299.5
   },
   "right": {
     "id": "0695eeee0b2faa72",
@@ -187,7 +187,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9a3cc4d582135407",
+  "active": "0e80f849104381e6",
   "lastOpenFiles": [
     "Untitled.md",
     "Spaces/Unreal Engine/스파르타/git & github.md",
