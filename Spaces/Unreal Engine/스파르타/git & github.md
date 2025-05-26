@@ -19,4 +19,6 @@
 
 
 - 브랜치(branch)
-    - 
+    - main 브랜치
+    - dev 브랜치
+    - feature 브랜치
