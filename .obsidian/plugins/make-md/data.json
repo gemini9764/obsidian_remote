@@ -41,12 +41,11 @@
     "//Spaces",
     "//Spaces/Spaces/Unreal Engine/Spaces/Unreal Engine/자료 사진",
     "//Spaces",
-    "//Spaces/Spaces/Unreal Engine",
     "//Spaces/Spaces/Home/Spaces/Home/옵시디언 기본 사용법",
-    "//Spaces/Spaces/Home",
     "//Spaces/Spaces/Unreal Engine/Spaces/Unreal Engine/스파르타",
     "//Spaces/Spaces/Unreal Engine/Spaces/Unreal Engine/스파르타",
-    "//Spaces/Spaces/Unreal Engine/Spaces/Unreal Engine/스파르타"
+    "//Spaces/Spaces/Unreal Engine/Spaces/Unreal Engine/스파르타",
+    "//Spaces/Spaces/Unreal Engine"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
