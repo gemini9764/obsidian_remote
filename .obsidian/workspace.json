@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/Part1/언리얼 C++ 인터페이스.md",
+                "file": "Spaces/Unreal Engine/Part1/언리얼 메모리 관리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "언리얼 C++ 인터페이스"
+              "title": "언리얼 메모리 관리"
             }
           }
         ]
