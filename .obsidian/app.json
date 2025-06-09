@@ -1,5 +1,7 @@
 {
   "useMarkdownLinks": false,
   "readableLineLength": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showLineNumber": false,
+  "useTab": true
 }
