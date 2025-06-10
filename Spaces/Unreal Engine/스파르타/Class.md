@@ -148,3 +148,81 @@ int main()
 >이 작업이 완료되면 생성자가 호출된다
 {. prompt-info}
 
+- 기본 생성자 잘못 사용한 케이스
+1. 잘못된 매개변수 전달
+```
+#include <iostream>
+    using namespace std;
+    
+    class Person {
+    public:
+        string name;
+        int age;
+    
+        // 매개변수가 있는 생성자
+        Person(string n, int a) {
+            name = n;
+            age = a;
+        }
+    };
+    
+    int main() {
+        Person p("Tom"); // 에러: 생성자에 필요한 매개변수 부족
+        // 컴파일 에러: "no matching function for call to 'Person::Person(const char [4])'"
+        // 매개변수 두 개를 요구하는 생성자에 하나의 매개변수만 전달하여 매칭되지 않음
+        p.display();
+        return 0;
+    }
+```
+
+2. 선언만 하지 정의하지 않음
+```
+#include <iostream>
+    using namespace std;
+    
+    class Person {
+    public:
+        string name;
+        int age;
+    
+        // 생성자를 선언만 하고 정의하지 않음
+        Person(string n, int a);
+    };
+    
+    int main() {
+        Person p("Alice", 25); // 선언된 생성자의 정의가 없으므로 컴파일 에러 발생
+        cout << "Name: " << p.name << ", Age: " << p.age << endl;
+        return 0;
+    }
+```
+
+3. 기본 생성자를 잘못 호출
+```
+#include <iostream>
+    using namespace std;
+    
+    class Person {
+    public:
+        string name;
+        int age;
+    
+        void temp() {}
+        Person(string n, int a) {}
+    };
+    
+    int main() {
+        Person p("a", 30);
+        Person p2;
+    
+        p.temp();
+        p2.temp();
+    
+        return 0;
+    }
+```
+  
+- class를 구현할 때, 보통 클래스의 선언부(헤더)와 구현부(소스 파일)을 분리한다
+
+>굳이 파일을 나눠서 구현하는 이유<br>
+>책을 예로 책의 전체 구성을 설명해 주는 목차 혹은 서론 없이 바로 본론으로 들어가게 되면, 전체적인 구조를 파악하기 어렵다<br>
+>헤더 파일에 class를 정의하는 것은 목차를 만든다 생각하면 되고, 소스 파일에 세부 구현하는 것은 실제 책 내용이라고 생각
