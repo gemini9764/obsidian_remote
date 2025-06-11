@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/스파르타/객체지향 프로그래밍.md",
+                "file": "Spaces/Unreal Engine/스파르타/알고리즘.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "객체지향 프로그래밍"
+              "title": "알고리즘"
             }
           }
         ]
@@ -84,7 +84,7 @@
             }
           },
           {
-            "id": "2946e2686b9704a2",
+            "id": "a483612fec2b0f6f",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,6 +189,7 @@
   },
   "active": "d6c65c7dcdead346",
   "lastOpenFiles": [
+    "Spaces/Unreal Engine/스파르타/알고리즘.md",
     "Spaces/Unreal Engine/자료사진/가상함수.png",
     "Spaces/Unreal Engine/스파르타/객체지향 프로그래밍.md",
     "Spaces/Unreal Engine/스파르타/Class.md",
@@ -221,7 +222,6 @@
     "Spaces/Unreal Engine/자료사진/데이터 애셋의 관리.png",
     "Spaces/Unreal Engine/자료사진/데이터 애셋.png",
     "Spaces/Unreal Engine/자료사진/캐릭터 무브먼트의 회전 옵션.png",
-    "Spaces/Unreal Engine/자료사진/캐릭터 무브먼트의 이동 옵션.png",
     "Spaces/Unreal Engine/Part2/입력시스템.md",
     "Spaces/Unreal Engine/Part2/캐릭터와 입력 시스템.md",
     "Spaces/Unreal Engine/Part2/캐릭터의 개념.md",
