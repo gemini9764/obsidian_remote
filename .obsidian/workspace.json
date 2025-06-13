@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/스파르타/자원관리.md",
+                "file": "Spaces/Unreal Engine/스파르타/C++ 기초.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "자원관리"
+              "title": "C++ 기초"
             }
           }
         ]
@@ -187,8 +187,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "95aec0c89e4cbc28",
+  "active": "d6c65c7dcdead346",
   "lastOpenFiles": [
+    "Spaces/Unreal Engine/스파르타/템플릿.md",
     "Spaces/Unreal Engine/자료사진/리플렉션.png",
     "Spaces/Unreal Engine/자료사진/리플렉션.png.crdownload",
     "Spaces/Unreal Engine/자료사진/마크앤스윕알고리즘.png",
@@ -227,7 +228,6 @@
     "Spaces/Unreal Engine/자료사진/뷰의 변환.png",
     "Spaces/Unreal Engine/Part2/캐릭터 컨트롤 설정.md",
     "Spaces/Unreal Engine/Part2/데이터 애셋.md",
-    "Spaces/Unreal Engine/자료사진/데이터 애셋의 구성과 적용.png",
     "Spaces/Unreal Engine/Part2/입력시스템.md",
     "Spaces/Unreal Engine/Part2/캐릭터와 입력 시스템.md",
     "Spaces/Unreal Engine/Part2",
