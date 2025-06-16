@@ -113,7 +113,73 @@
         - `clear()` 는 맵뿐 아니라 대부분 컨테이너에 존재
 
 #### 알고리즘
+
  - **sort**
     - 컨테이너 내부의 데이터를 정렬하는 함수
     - 기본 타입(`int`,  `double`  등)의 경우 사용자 정렬 함수 없으면 오름차순으로 정렬
-    - 사용자 정렬 함수를 정의할 수도 있다
+    - 사용자 정렬 함수를 정의할 수도 있다(`comp(a, b)`)
+        - 현재 컨테이너에서 첫 번째 인자 a가 앞에 있는 원소를 의미
+        - `comp(a,b)` 가 *true*이면 a와 b의 순서는 유지. 만약 *false*인 경우 a와 b의 순서를 바꾼다
+- sort를 활용해서 class타입 벡터를 정렬하는 예시
+```
+#include <iostream>  
+#include <vector>  
+#include <algorithm> // sort 함수 포함  
+using namespace std;  
+    class Person {  
+private:  
+    string name;  
+    int age;  
+    public:  
+    // 생성자  
+    Person(string name, int age) : name(name), age(age) {}  
+    // Getter 함수  
+    string getName() const { return name; }  
+    int getAge() const { return age; }  
+};  
+    // 다중 기준 정렬 함수 (나이 오름차순 → 이름 오름차순)  
+bool compareByAgeAndName(const Person& a, const Person& b) {  
+    if (a.getAge() == b.getAge()) {  
+        return a.getName() < b.getName(); // 이름 오름차순  
+    }  
+    return a.getAge() < b.getAge(); // 나이 오름차순  
+}  
+    int main() {  
+    vector<Person> people = {  
+        Person("Alice", 30),  
+        Person("Bob", 25),  
+        Person("Charlie", 35),  
+        Person("Alice", 25)  
+    };  
+    // 나이 → 이름 순으로 정렬  
+    sort(people.begin(), people.end(), compareByAgeAndName);  
+    // 결과 출력  
+    for (const Person& person : people) {  
+        cout << person.getName() << " (" << person.getAge() << ")" << endl;  
+    }    return 0;  
+}
+```
+
+- **find**
+    - 컨터에너 내부에서 특정 원소를 찾아 해당 원소의 반복자를 반환하는 함수
+    - `find(first, last, 찾을 값)` 과 같이 사용한다
+        - `find(first, last)` 가 탐색 대상
+        - 원소를 찾은 경우 해당 원소의 반복자를 반환
+        - 원소를 찾지 못한 경우 `last` 반복자를 반환
+
+
+#### 반복자
+
+- **순방향 반복자**
+    - 앞에서부터 뒤로 순차적으로 순회하는 반복자
+    - `begin()` 은 컨테이너의 첫 번째 원소를 가리키는 반복자
+    - `end()` 는 컨테이너의 마지막 원소 다음을 가리키는 반복자
+
+>`end()`를 마지막 원소 다음을 가리키도록 정한 이유<br>
+>일관된 반복 구조 유지<br>
+>탐색 실패를 쉽게 표현할 수 있다
+{: .prompt-info}
+
+- **역방향 반복자**
+    - 컨테이너의 마지막 원소부터 첫 번째 원소까지 역순으로 순회할 수 있도록 해주는 반복자
+    - `rbegin()`은 컨테이너의 마지막 원소를 가리키는 
