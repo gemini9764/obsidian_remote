@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Home/note.md",
+                "file": "Spaces/Unreal Engine/스파르타/STL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "note"
+              "title": "STL"
             }
           }
         ]
@@ -84,7 +84,7 @@
             }
           },
           {
-            "id": "0ecf2485d2c02607",
+            "id": "af3767efedb2eb73",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -189,6 +189,7 @@
   },
   "active": "d6c65c7dcdead346",
   "lastOpenFiles": [
+    "Spaces/Unreal Engine/스파르타/STL.md",
     "Spaces/Home/note.md",
     "Spaces/Unreal Engine/스파르타/템플릿.md",
     "Spaces/Unreal Engine/자료사진/리플렉션.png",
@@ -229,7 +230,6 @@
     "Spaces/Unreal Engine/Part2/캐릭터 컨트롤 설정.md",
     "Spaces/Unreal Engine/Part2/데이터 애셋.md",
     "Spaces/Unreal Engine/Part2/입력시스템.md",
-    "Spaces/Unreal Engine/Part2/캐릭터와 입력 시스템.md",
     "Spaces/Unreal Engine/Part2",
     "Spaces/Unreal Engine/Part1",
     "Spaces/Unreal Engine/자료사진",
