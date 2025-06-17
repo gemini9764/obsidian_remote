@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Home/옵시디언 기본 사용법/MarkDown 사용법.md",
+                "file": "Spaces/Unreal Engine/스파르타/디자인 패턴.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MarkDown 사용법"
+              "title": "디자인 패턴"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/스파르타/디자인 패턴.md",
+                "file": "Spaces/Home/옵시디언 기본 사용법/MarkDown 사용법.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "디자인 패턴"
+              "title": "MarkDown 사용법"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,7 +201,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "000460e55fddf827",
+  "active": "d6c65c7dcdead346",
   "lastOpenFiles": [
     "Spaces/Unreal Engine/자료사진/디자인 패턴.png",
     "Spaces/Unreal Engine/자료사진/디자인 패턴.png.crdownload",
