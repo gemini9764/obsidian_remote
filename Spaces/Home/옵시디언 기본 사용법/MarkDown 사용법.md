@@ -642,3 +642,6 @@ title Pie Chart
 "Cats" : 85 
 "Rats" : 150 
 ```
+
+[mermaid](https://mermaid.js.org/syntax/flowchart.html "mermaid에 대한 설명")
+
