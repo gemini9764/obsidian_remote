@@ -22,3 +22,5 @@
     - main 브랜치
     - dev 브랜치
     - feature 브랜치
+
+[git lfs 설정](https://velog.io/@singery00/UE5-Unreal-%ED%8C%80-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-Git-Github-%EC%97%B0%EB%8F%99#gitignore)

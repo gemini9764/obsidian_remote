@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/Part2/캐릭터의 개념.md",
+                "file": "Spaces/Unreal Engine/Part2/언리얼 엔진 게임 제작 기초.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "캐릭터의 개념"
+              "title": "언리얼 엔진 게임 제작 기초"
             }
           }
         ]
@@ -84,7 +84,7 @@
             }
           },
           {
-            "id": "7e397cfc487a9ba1",
+            "id": "f1694a3934025f93",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -236,6 +236,4 @@
     "Spaces/Unreal Engine/Part2",
     "Spaces/Unreal Engine/Part1",
     "Spaces/Unreal Engine/자료사진",
-    "Untitled.canvas"
-  ]
-}
+    "Untitled.can
