@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "Spaces/Home/Untitled.canvas"
+    },
+    {
       "basename": "캐릭터 콤보 액션",
       "path": "Spaces/Unreal Engine/Part2/캐릭터 콤보 액션.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "언리얼 C++ 프로젝트",
       "path": "Spaces/Unreal Engine/자료사진/언리얼 C++ 프로젝트.png"
-    },
-    {
-      "basename": "블루프린트 프로젝트",
-      "path": "Spaces/Unreal Engine/자료사진/블루프린트 프로젝트.png"
     }
   ],
   "omittedPaths": [],
