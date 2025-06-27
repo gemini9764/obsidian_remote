@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "aeaac9b6ac0dc65e",
+        "id": "d870a73d67343a2e",
         "type": "tabs",
         "children": [
           {
-            "id": "5ca5079ed1855854",
+            "id": "6d485f0e158c8a43",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spaces/Unreal Engine/스파르타/문서이름.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "문서이름"
+              "title": "New tab"
             }
           }
         ]
@@ -85,7 +81,7 @@
             }
           },
           {
-            "id": "52a88585fe91c5e8",
+            "id": "0856b41757bdde69",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -188,7 +184,7 @@
       "remotely-secure:Remotely Sync": false
     }
   },
-  "active": "5ca5079ed1855854",
+  "active": "95aec0c89e4cbc28",
   "lastOpenFiles": [
     "Spaces/Unreal Engine/스파르타/Untitled.md",
     "Spaces/Home/려/려.md",
