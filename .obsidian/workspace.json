@@ -11,10 +11,14 @@
             "id": "6d485f0e158c8a43",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Spaces/Unreal Engine/스파르타/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled"
             }
           }
         ]
@@ -81,7 +85,7 @@
             }
           },
           {
-            "id": "0856b41757bdde69",
+            "id": "058b018db27c8212",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
