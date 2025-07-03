@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/스파르타/Untitled.md",
+                "file": "Spaces/Home/려/게임 전체적인 개요.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "게임 전체적인 개요"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "058b018db27c8212",
+            "id": "3882ed3a6a117cb4",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
