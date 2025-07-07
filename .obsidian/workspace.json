@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/스파르타/레퍼런스.md",
+                "file": "Spaces/Unreal Engine/스파르타/Untitled 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "레퍼런스"
+              "title": "Untitled 1"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "172407eafa14e26a",
+            "id": "c7c594734c999d42",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -188,8 +188,9 @@
       "remotely-secure:Remotely Sync": false
     }
   },
-  "active": "95aec0c89e4cbc28",
+  "active": "6d485f0e158c8a43",
   "lastOpenFiles": [
+    "Spaces/Unreal Engine/스파르타/Untitled 1.md",
     "Spaces/Unreal Engine/스파르타/Untitled.md",
     "Spaces/Home/려/려.md",
     "Spaces/Home/려",
@@ -228,7 +229,6 @@
     "Spaces/Home/옵시디언 기본 사용법/MarkDown 사용법.md",
     "Spaces/Home/옵시디언 기본 사용법/MarkDown 사용법.md",
     "Spaces/Unreal Engine/스파르타/게임개발종합반.md",
-    "Spaces/Unreal Engine/스파르타/스파르타.md",
     "Spaces/Unreal Engine/스파르타",
     "Spaces/Unreal Engine/자료사진/콤보 공격의 구현(알고리즘).png",
     "Spaces/Unreal Engine/자료사진/콤보 공격의 기획.png",
