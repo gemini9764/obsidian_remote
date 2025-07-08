@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/스파르타/빌드 프로세스.md",
+                "file": "Spaces/Unreal Engine/스파르타/TA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "빌드 프로세스"
+              "title": "TA"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "c7c594734c999d42",
+            "id": "3e2e893cc0f143df",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -190,8 +190,8 @@
   },
   "active": "6d485f0e158c8a43",
   "lastOpenFiles": [
+    "Spaces/Unreal Engine/스파르타/TA.md",
     "Spaces/Unreal Engine/스파르타/빌드 프로세스.md",
-    "Spaces/Unreal Engine/스파르타/Untitled.md",
     "Spaces/Home/려/려.md",
     "Spaces/Home/려",
     "Spaces/Home/Untitled.canvas",
