@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d870a73d67343a2e",
+        "id": "d38d55bf20ea1614",
         "type": "tabs",
         "children": [
           {
-            "id": "6d485f0e158c8a43",
+            "id": "d960e2813e04e1ad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spaces/Unreal Engine/스파르타/클린코드.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "클린코드"
+              "title": "New tab"
             }
           }
         ]
@@ -188,7 +184,7 @@
       "remotely-secure:Remotely Sync": false
     }
   },
-  "active": "6d485f0e158c8a43",
+  "active": "d960e2813e04e1ad",
   "lastOpenFiles": [
     "Spaces/Unreal Engine/스파르타/클린코드.md",
     "Spaces/Unreal Engine/스파르타/TA.md",
