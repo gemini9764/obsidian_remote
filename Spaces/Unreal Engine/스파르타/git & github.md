@@ -24,3 +24,18 @@
     - feature 브랜치
 
 [git lfs 설정](https://velog.io/@singery00/UE5-Unreal-%ED%8C%80-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-Git-Github-%EC%97%B0%EB%8F%99#gitignore)
+
+
+#### CommitLint 규칙
+
+- `feat`: 새로운 기능
+- `fix`: 버그 수정
+- `docs`: 문서 변경
+- `style`: 코드 포맷팅 (공백, 세미콜론 등)
+- `refactor`: 리팩토링
+- `test`: 테스트 추가/수정
+- `chore`: 기타 변경 (빌드 작업 등)
+
+- 예시) fix : 시간 수정
+
+[커밋 메시지에 대한 규칙](https://www.conventionalcommits.org/ko/v1.0.0/)
