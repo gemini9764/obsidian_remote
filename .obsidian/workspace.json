@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/Unreal Engine/스파르타/git & github.md",
+                "file": "Spaces/Unreal Engine/스파르타/객체지향 프로그래밍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git & github"
+              "title": "객체지향 프로그래밍"
             }
           }
         ]
@@ -85,7 +85,7 @@
             }
           },
           {
-            "id": "c197e999361dd992",
+            "id": "5dfa6a4337013a84",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
