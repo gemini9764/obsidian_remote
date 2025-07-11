@@ -3,3 +3,8 @@
 [퀵매직 사용법](https://www.youtube.com/watch?v=X7VKrtUYTcc&list=PLSwaFw-mJ1XvSuWNyiNsdkOhI5FET1E5z&index=16)
 [모토리카](https://www.motorica.ai/)
 [모코리카 사용법](https://www.youtube.com/watch?v=lMaOHtVNov8&list=PLSwaFw-mJ1XvSuWNyiNsdkOhI5FET1E5z&index=17)
+
+
+3D 모델링 AI
+[메쉬 Ai](https://www.meshy.ai/?utm_source=youtube&utm_medium=influencer&utm_content=route9&utm_campaign=meshy-june-kr-campaign)
+[메쉬 AI 소개영상](https://www.youtube.com/watch?v=l7oDzqAwejY)
