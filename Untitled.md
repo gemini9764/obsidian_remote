@@ -12,3 +12,21 @@ Player Controller
 2. 카메라 제어 로직
 3. UI와의 상호작용
 4. Possess - 빙의 / UnPossess
+
+Enhanced Input System
+
+- 사람 전용 IMC
+- 자동차 전용 IMC
+- Input Mapping System(IMC)(스위치)
+    - IA들을 총괄해서 관리하는
+
+- Input Action(IA) - 추상적인 행동(전선)
+    - 점프 -> IA_JUMP     -> Jump 함수
+    - 마우스 회전 -> IA_Look    -> Look 함수
+    - 이동 -> IA_Move
+
+- 캐릭터 행동
+1. 이동 WASD
+2. 마우스 회전
+3. 점프
+4. 스프린트 shift
