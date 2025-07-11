@@ -5,3 +5,10 @@ GameMode 클래스 - 총괄 관리자
 3. 게임 규칙 관리 - 로직(함수) - 점수의 규칙
 4. GameState 클래스 - 게임 전역 데이터 - 점수
    PlayerState 클래스 - 개별 개릭터마다의 데이터
+
+Player Controller
+
+1. 입력 처리 - Enhanced Input System - 언리얼 엔진 5
+2. 카메라 제어 로직
+3. UI와의 상호작용
+4. Possess - 빙의 / UnPossess
