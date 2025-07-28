@@ -86,5 +86,564 @@ private:
 *SpartaAIContoller.h*
 
 ```
+#include "SpartaAIController.h"
+#include "TimerManager.h"
+#include "NavigationSystem.h"
+
+ASpartaAIController::ASpartaAIController()
+{
+}
+
+void ASpartaAIController::BeginPlay()
+{
+    Super::BeginPlay();
+
+    GetWorldTimerManager().SetTimer(
+        RandomMoveTimer,
+        this,
+        &ASpartaAIController::MoveToRandomLocation,
+        3.0f,
+        true,
+        1.0f
+    );
+}  
+
+void ASpartaAIController::OnPossess(APawn* InPawn)
+{
+    Super::OnPossess(InPawn);
+
+    if (InPawn)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("[Sparta] AI Controller is controlling %s."), *InPawn->GetName());
+    }
+}
+
+void ASpartaAIController::MoveToRandomLocation()
+{
+    APawn* MyPawn = GetPawn();
+
+    if (!MyPawn)
+    {
+        UE_LOG(LogTemp, Error, TEXT("[Sparta] No Pawn to control."));
+    }
+
+    UNavigationSystemV1* NavSystem = UNavigationSystemV1::GetCurrent(GetWorld());
+
+    if (!NavSystem)
+    {
+        UE_LOG(LogTemp, Error, TEXT("[Sparta] Could not find Navigation System."));
+    }
+
+    FNavLocation RandomLocation;
+
+    bool bFoundLocation = NavSystem->GetRandomReachablePointInRadius(
+        MyPawn->GetActorLocation(),
+        MoveRadius,
+        RandomLocation
+    );
+
+    if (bFoundLocation)
+    {
+        MoveToLocation(RandomLocation.Location);
+
+        UE_LOG(LogTemp, Warning, TEXT("[Sparta] Move target: %s"), *RandomLocation.Location.ToString());
+    }
+    else
+    {
+        UE_LOG(LogTemp, Warning, TEXT("[Sparta] Could not find a reachable location."));
+    }
+}
+```
+
+*SpartaAIController.cpp*
+
+- AI 이동 속도 제어
 
 ```
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Character.h"
+#include "SpartaAICharacter.generated.h"
+
+UCLASS()
+class SPARTAPROJECT_API ASpartaAICharacter : public ACharacter
+{
+    GENERATED_BODY()
+
+public:
+    ASpartaAICharacter();
+
+    UPROPERTY(EditAnywhere, Category = "AI")
+    float WalkSpeed = 300.0f;
+
+    UPROPERTY(EditAnywhere, Category = "AI")
+    float RunSpeed = 600.0f;
+
+    void SetMovementSpeed(float NewSpeed);
+
+protected:
+    virtual void BeginPlay() override;
+};
+```
+
+*SpartaAIContoller.h*
+
+```
+#include "SpartaAICharacter.h"
+#include "SpartaAIController.h"
+#include "GameFramework/CharacterMovementComponent.h"
+
+ASpartaAICharacter::ASpartaAICharacter()
+{
+    AIControllerClass = ASpartaAIController::StaticClass();
+    AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
+
+    UCharacterMovementComponent* Movement = GetCharacterMovement();
+    Movement->MaxWalkSpeed = WalkSpeed;
+    Movement->bOrientRotationToMovement = true;
+    Movement->RotationRate = FRotator(0.0f, 540.0f, 0.0f);
+    Movement->AirControl = 0.2f;
+}
+
+void ASpartaAICharacter::BeginPlay()
+{
+    Super::BeginPlay();
+
+    UE_LOG(LogTemp, Warning, TEXT("[Sparta] AI character has been spawned."));
+}
+
+void ASpartaAICharacter::SetMovementSpeed(float NewSpeed)
+{
+    if (UCharacterMovementComponent* Movement = GetCharacterMovement())
+    {
+        Movement->MaxWalkSpeed = NewSpeed;
+        UE_LOG(LogTemp, Warning, TEXT("[Sparta] Speed changed: %.1f"), NewSpeed);
+    }
+}
+```
+
+*SpartaAIController.cpp*
+
+#### Perception 추가 - AI에게 눈을 달아주기
+
+```
+#pragma once
+
+#include "CoreMinimal.h"
+#include "AIController.h"
+#include "Perception/AIPerceptionTypes.h"
+#include "SpartaAIController.generated.h"
+
+class UAIPerceptionComponent;
+class UAISenseConfig_Sight;
+
+UCLASS()
+class SPARTAPROJECT_API ASpartaAIController : public AAIController
+{
+    GENERATED_BODY()
+
+public:
+    ASpartaAIController();
+
+protected:
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AI")
+    UAIPerceptionComponent* AIPerception;
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AI")
+    UAISenseConfig_Sight* SightConfig;
+
+    UFUNCTION()
+    void OnPerceptionUpdated(AActor* Actor, FAIStimulus Stimulus);
+
+    virtual void BeginPlay() override;
+    virtual void OnPossess(APawn* InPawn) override;
+
+private:
+    void MoveToRandomLocation();
+    FTimerHandle RandomMoveTimer;
+
+    UPROPERTY(EditAnywhere, Category = "AI")
+    float MoveRadius = 1000.0f;
+};
+```
+
+*SpartaAIContoller.h*
+
+```
+#include "SpartaAIController.h"
+#include "TimerManager.h"
+#include "NavigationSystem.h"
+#include "Perception/AIPerceptionComponent.h"
+#include "Perception/AISenseConfig_Sight.h"
+
+ASpartaAIController::ASpartaAIController()
+{
+	AIPerception = CreateDefaultSubobject<UAIPerceptionComponent>(TEXT("AIPerception"));
+	SetPerceptionComponent(*AIPerception);
+
+	SightConfig = CreateDefaultSubobject<UAISenseConfig_Sight>(TEXT("SightConfig"));
+	SightConfig->SightRadius = 1500.0f;
+	SightConfig->LoseSightRadius = 2000.0f;
+	SightConfig->PeripheralVisionAngleDegrees = 90.0f;
+	SightConfig->SetMaxAge(5.0f);
+
+	SightConfig->DetectionByAffiliation.bDetectEnemies = true;
+	SightConfig->DetectionByAffiliation.bDetectNeutrals = true;
+	SightConfig->DetectionByAffiliation.bDetectFriendlies = true;
+
+	AIPerception->ConfigureSense(*SightConfig);
+	AIPerception->SetDominantSense(SightConfig->GetSenseImplementation());
+}
+
+void ASpartaAIController::BeginPlay()
+{
+	Super::BeginPlay();
+
+	if (AIPerception)
+	{
+		AIPerception->OnTargetPerceptionUpdated.AddDynamic(
+			this,
+			&ASpartaAIController::OnPerceptionUpdated
+		);
+	}
+
+	GetWorldTimerManager().SetTimer(
+		RandomMoveTimer,
+		this,
+		&ASpartaAIController::MoveToRandomLocation,
+		3.0f,
+		true,
+		1.0f
+	);
+}
+
+void ASpartaAIController::OnPossess(APawn* InPawn)
+{
+	Super::OnPossess(InPawn);
+
+	if (InPawn)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("[Sparta] AI Controller is controlling %s."), *InPawn->GetName());
+	}
+}
+
+void ASpartaAIController::MoveToRandomLocation()
+{
+	APawn* MyPawn = GetPawn();
+	if (!MyPawn)
+	{
+		UE_LOG(LogTemp, Error, TEXT("[Sparta] No Pawn to control."));
+	}
+
+	UNavigationSystemV1* NavSystem = UNavigationSystemV1::GetCurrent(GetWorld());
+	if (!NavSystem)
+	{
+		UE_LOG(LogTemp, Error, TEXT("[Sparta] Could not find Navigation System."));
+	}
+
+	FNavLocation RandomLocation;
+	bool bFoundLocation = NavSystem->GetRandomReachablePointInRadius(
+		MyPawn->GetActorLocation(),
+		MoveRadius,
+		RandomLocation
+	);
+
+	if (bFoundLocation)
+	{
+		MoveToLocation(RandomLocation.Location);
+
+		UE_LOG(LogTemp, Warning, TEXT("[Sparta] Move target: %s"), *RandomLocation.Location.ToString());
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("[Sparta] Could not find a reachable location."));
+	}
+}
+
+void ASpartaAIController::OnPerceptionUpdated(AActor* Actor, FAIStimulus Stimulus)
+{
+	if (Stimulus.WasSuccessfullySensed())
+	{
+		UE_LOG(LogTemp, Warning, TEXT("[Sparta] Saw something! %s"), *Actor->GetName());
+
+		DrawDebugString(
+			GetWorld(),
+			Actor->GetActorLocation() + FVector(0, 0, 100),
+			FString::Printf(TEXT("Saw: %s"), *Actor->GetName()),
+			nullptr,
+			FColor::Green,
+			2.0f,
+			true
+		);
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("[Sparta] Missed it! %s"), *Actor->GetName());
+
+		DrawDebugString(
+			GetWorld(),
+			Actor->GetActorLocation() + FVector(0, 0, 100),
+			FString::Printf(TEXT("Missed: %s"), *Actor->GetName()),
+			nullptr,
+			FColor::Red,
+			2.0f,
+			true
+		);
+	}
+}
+```
+
+*SpartaAIController.cpp*
+
+#### 추적 기능 -플레이어를 쫓아가는 AI
+
+```
+#pragma once
+
+#include "CoreMinimal.h"
+#include "AIController.h"
+#include "Perception/AIPerceptionTypes.h"
+#include "SpartaAIController.generated.h"
+
+class UAIPerceptionComponent;
+class UAISenseConfig_Sight;
+
+UCLASS()
+class SPARTAPROJECT_API ASpartaAIController : public AAIController
+{
+	GENERATED_BODY()
+
+public:
+	ASpartaAIController();
+
+protected:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AI")
+	UAIPerceptionComponent* AIPerception;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AI")
+	UAISenseConfig_Sight* SightConfig;
+
+	UPROPERTY()
+	AActor* CurrentTarget = nullptr;
+
+	UFUNCTION()
+	void OnPerceptionUpdated(AActor* Actor, FAIStimulus Stimulus);
+
+	bool bIsChasing = false;
+	FTimerHandle ChaseTimer;
+
+	virtual void BeginPlay() override;
+	virtual void OnPossess(APawn* InPawn) override;
+
+	void StartChasing(AActor* Target);
+	void StopChasing();
+	void UpdateChase();
+
+private:
+	void MoveToRandomLocation();
+
+	FTimerHandle RandomMoveTimer;
+
+	UPROPERTY(EditAnywhere, Category = "AI")
+	float MoveRadius = 1000.0f;
+};
+
+```
+
+*SpartaAIController.h*
+
+```
+#include "SpartaAIController.h"
+#include "TimerManager.h"
+#include "NavigationSystem.h"
+#include "Perception/AIPerceptionComponent.h"
+#include "Perception/AISenseConfig_Sight.h"
+#include "SpartaAICharacter.h"
+#include "Kismet/GameplayStatics.h"
+
+ASpartaAIController::ASpartaAIController()
+{
+	AIPerception = CreateDefaultSubobject<UAIPerceptionComponent>(TEXT("AIPerception"));
+	SetPerceptionComponent(*AIPerception);
+
+	SightConfig = CreateDefaultSubobject<UAISenseConfig_Sight>(TEXT("SightConfig"));
+	SightConfig->SightRadius = 1500.0f;
+	SightConfig->LoseSightRadius = 2000.0f;
+	SightConfig->PeripheralVisionAngleDegrees = 90.0f;
+	SightConfig->SetMaxAge(5.0f);
+
+	SightConfig->DetectionByAffiliation.bDetectEnemies = true;
+	SightConfig->DetectionByAffiliation.bDetectNeutrals = true;
+	SightConfig->DetectionByAffiliation.bDetectFriendlies = true;
+
+	AIPerception->ConfigureSense(*SightConfig);
+	AIPerception->SetDominantSense(SightConfig->GetSenseImplementation());
+}
+
+void ASpartaAIController::BeginPlay()
+{
+	Super::BeginPlay();
+
+	if (AIPerception)
+	{
+		AIPerception->OnTargetPerceptionUpdated.AddDynamic(
+			this,
+			&ASpartaAIController::OnPerceptionUpdated
+		);
+	}
+
+	GetWorldTimerManager().SetTimer(
+		RandomMoveTimer,
+		this,
+		&ASpartaAIController::MoveToRandomLocation,
+		3.0f,
+		true,
+		1.0f
+	);
+}
+
+void ASpartaAIController::OnPossess(APawn* InPawn)
+{
+	Super::OnPossess(InPawn);
+
+	if (InPawn)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("[Sparta] AI Controller is controlling %s."), *InPawn->GetName());
+	}
+}
+
+void ASpartaAIController::MoveToRandomLocation()
+{
+	APawn* MyPawn = GetPawn();
+	if (!MyPawn)
+	{
+		UE_LOG(LogTemp, Error, TEXT("[Sparta] No Pawn to control."));
+	}
+
+	UNavigationSystemV1* NavSystem = UNavigationSystemV1::GetCurrent(GetWorld());
+	if (!NavSystem)
+	{
+		UE_LOG(LogTemp, Error, TEXT("[Sparta] Could not find Navigation System."));
+	}
+
+	FNavLocation RandomLocation;
+	bool bFoundLocation = NavSystem->GetRandomReachablePointInRadius(
+		MyPawn->GetActorLocation(),
+		MoveRadius,
+		RandomLocation
+	);
+
+	if (bFoundLocation)
+	{
+		MoveToLocation(RandomLocation.Location);
+
+		UE_LOG(LogTemp, Warning, TEXT("[Sparta] Move target: %s"), *RandomLocation.Location.ToString());
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("[Sparta] Could not find a reachable location."));
+	}
+}
+
+void ASpartaAIController::OnPerceptionUpdated(AActor* Actor, FAIStimulus Stimulus)
+{
+	APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
+	if (Actor != PlayerPawn)
+	{
+		return;
+	}
+
+	if (Stimulus.WasSuccessfullySensed())
+	{
+		UE_LOG(LogTemp, Warning, TEXT("[Sparta] Saw something! %s"), *Actor->GetName());
+
+		DrawDebugString(
+			GetWorld(),
+			Actor->GetActorLocation() + FVector(0, 0, 100),
+			FString::Printf(TEXT("Saw: %s"), *Actor->GetName()),
+			nullptr,
+			FColor::Green,
+			2.0f,
+			true
+		);
+
+		StartChasing(Actor);
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("[Sparta] Missed it! %s"), *Actor->GetName());
+
+		DrawDebugString(
+			GetWorld(),
+			Actor->GetActorLocation() + FVector(0, 0, 100),
+			FString::Printf(TEXT("Missed: %s"), *Actor->GetName()),
+			nullptr,
+			FColor::Red,
+			2.0f,
+			true
+		);
+
+		StopChasing();
+	}
+}
+
+void ASpartaAIController::StartChasing(AActor* Target)
+{
+	if (bIsChasing && CurrentTarget == Target) return;
+
+	CurrentTarget = Target;
+	bIsChasing = true;
+
+	GetWorldTimerManager().ClearTimer(RandomMoveTimer);
+
+	if (ASpartaAICharacter* AIChar = Cast<ASpartaAICharacter>(GetPawn()))
+	{
+		AIChar->SetMovementSpeed(AIChar->RunSpeed);
+	}
+
+	UpdateChase();
+	GetWorldTimerManager().SetTimer(
+		ChaseTimer,
+		this,
+		&ASpartaAIController::UpdateChase,
+		0.25f,
+		true
+	);
+}
+
+void ASpartaAIController::StopChasing()
+{
+	if (!bIsChasing) return;
+
+	CurrentTarget = nullptr;
+	bIsChasing = false;
+
+	GetWorldTimerManager().ClearTimer(ChaseTimer);
+
+	StopMovement();
+
+	if (ASpartaAICharacter* AIChar = Cast<ASpartaAICharacter>(GetPawn()))
+	{
+		AIChar->SetMovementSpeed(AIChar->WalkSpeed);
+	}
+
+	GetWorldTimerManager().SetTimer(
+		RandomMoveTimer,
+		this,
+		&ASpartaAIController::MoveToRandomLocation,
+		3.0f,
+		true,
+		2.0f
+	);
+}
+
+void ASpartaAIController::UpdateChase()
+{
+	if (CurrentTarget && bIsChasing)
+	{
+		MoveToActor(CurrentTarget, 100.0f);
+	}
+}
+```
+
+*SpartaAIController.cpp*
