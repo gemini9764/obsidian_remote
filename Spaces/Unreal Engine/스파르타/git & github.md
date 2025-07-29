@@ -39,3 +39,14 @@
 - 예시) fix : 시간 수정
 
 [커밋 메시지에 대한 규칙](https://www.conventionalcommits.org/ko/v1.0.0/)
+
+|타입|설명|예시|
+|---|---|---|
+|`feat`|새로운 기능 추가|`feat: add AI perception system to DronePawn`|
+|`fix`|버그 수정|`fix: resolve AI pathfinding stuck issue`|
+|`docs`|문서나 주석 관련 변경|`docs: add explanation on behavior tree setup`|
+|`style`|코드 스타일 변경 (기능에 영향 없음)|`style: format AIController with clang-format`|
+|`refactor`|리팩토링 (기능 변화 없음)|`refactor: separate sensing logic from controller`|
+|`test`|테스트 코드 추가나 수정|`test: add unit test for AI target acquisition`|
+|`chore`|빌드, 설정 파일 등 기타 작업|`chore: update .gitignore for generated AI data`|
+|`perf`|성능 개선|`perf: optimize tick function in behavior component`
