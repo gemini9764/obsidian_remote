@@ -4,5 +4,5 @@
   "alwaysUpdateLinks": true,
   "showLineNumber": false,
   "useTab": true,
-  "smartIndentList": false
+  "smartIndentList": true
 }
