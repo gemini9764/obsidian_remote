@@ -3,5 +3,6 @@
   "readableLineLength": true,
   "alwaysUpdateLinks": true,
   "showLineNumber": false,
-  "useTab": true
+  "useTab": true,
+  "smartIndentList": false
 }
