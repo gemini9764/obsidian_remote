@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spaces/CodingTest/Programmers/아날로그 시계.md",
+                "file": "Spaces/Home/옵시디언 기본 사용법/마크다운 수식 문법 형태.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "아날로그 시계"
+              "title": "마크다운 수식 문법 형태"
             }
           }
         ]
@@ -210,6 +210,7 @@
   },
   "active": "d960e2813e04e1ad",
   "lastOpenFiles": [
+    "Spaces/Home/옵시디언 기본 사용법/마크다운 수식 문법 형태.md",
     "Spaces/CodingTest/자료사진/아날로그_시계.png",
     "Spaces/CodingTest/자료사진/미확인 117506.crdownload",
     "Spaces/CodingTest/자료사진",
@@ -256,7 +257,6 @@
     "Spaces/Unreal Engine/자료사진/콤보 공격의 구현(알고리즘).png",
     "Spaces/Unreal Engine/자료사진/콤보 공격의 기획.png",
     "Spaces/Unreal Engine/자료사진/캐릭터 애니메이션 시스템의 설계.png",
-    "Spaces/Unreal Engine/자료사진/캐릭터 애니메이션 시스템의 생성.png",
     "Untitled.canvas"
   ]
 }
