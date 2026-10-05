@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "아이디어",
+      "path": "아이디어.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
       "basename": "Untitled",
       "path": "Spaces/Home/Untitled.canvas"
     },
@@ -191,17 +199,12 @@
     {
       "basename": "모듈 C++ 코드의 관리",
       "path": "Spaces/Unreal Engine/자료사진/모듈 C++ 코드의 관리.png"
-    },
-    {
-      "basename": "Spaces",
-      "path": "Spaces/Spaces.md"
-    },
-    {
-      "basename": "언리얼 C++ 프로젝트",
-      "path": "Spaces/Unreal Engine/자료사진/언리얼 C++ 프로젝트.png"
     }
   ],
   "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false,
   "maxLength": null,
   "openType": "tab"
 }
